@@ -1,16 +1,41 @@
 <template>
-  <header id="nav">
-    <aside aria-label="Linkit">
-      <a href="https://www.linkedin.com/in/santtu-nykanen/">LinkedIn</a>
-      <span> | </span>
-      <a href="https://github.com/cyanidesayonara">GitHub</a>
-    </aside>
-    <router-link to="/">FI</router-link>
-    <span> | </span>
-    <router-link to="/en">EN</router-link>
-  </header>
-  <router-view />
+  <div id="app">
+    <div>
+      <header id="nav">
+        <aside aria-label="Linkit">
+          <a href="https://www.linkedin.com/in/santtu-nykanen/">LinkedIn</a>
+          <span> | </span>
+          <a href="https://github.com/cyanidesayonara">GitHub</a>
+        </aside>
+        <router-link to="/fi">FI</router-link>
+        <span> | </span>
+        <router-link to="/en">EN</router-link>
+        <span> | </span>
+        <router-link
+          :class="[
+            blogRouteIsActive && 'router-link-active router-link-exact-active',
+          ]"
+          to="/blog"
+          >BLOG</router-link
+        >
+      </header>
+      <router-view />
+    </div>
+  </div>
 </template>
+
+<script lang="ts">
+import { useRoute } from "vue-router";
+export default {
+  name: "app",
+  computed: {
+    blogRouteIsActive(): boolean {
+      const route = useRoute().name;
+      return route?.toString().includes("blog") ?? false;
+    },
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
@@ -39,6 +64,7 @@ html {
 body {
   font-family: "Titillium Web", sans-serif;
   margin: 0;
+  overflow-y: scroll;
 }
 header,
 article,
@@ -73,5 +99,11 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.home {
+  padding: 20px;
+}
+.blog {
+  padding: 20px;
 }
 </style>
