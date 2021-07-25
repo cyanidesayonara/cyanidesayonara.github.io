@@ -1,0 +1,74 @@
+{
+  "portfolio": {
+    "title": "Portfolio suomeksi",
+    "greeting": "Moi ツ",
+    "img_alt": "Kuva minusta",
+    "print_pdf": "Tulosta PDF",
+    "bio": {
+      "line1": "Olen Santtu Nykänen, kolmikymppinen fullstack-kehittäjä Helsingistä.",
+      "line2": "Vaihdoin nelisen vuotta sitten alaa ja olen työskennellyt kehittäjänä nyt reilut pari vuotta. Opiskelen työn ohessa softakehitystä Haaga-Helia AMK:ssa.",
+      "line3": "Töissä olen koodaillut enimmäkseen Pythonia, Javaa ja JavaScriptia, ei missään erityisessä järjestyksessä. Viime aikoina olen opiskellut myös esim. Gota, Flutteria ja Kotlinia.",
+      "line4": "Tämä portfolio sisältää lyhyesti tietoa omista projekteistani sekä linkkejä nettiprofiileihin, kuten <a href='https://www.linkedin.com/in/santtu-nykanen/'>LinkedIn</a> ja <a href='https://github.com/cyanidesayonara'>GitHub</a>, joissa on todennäköisesti aina ajankohtaisempaa ja tarkempaa tietoa. Kiitos käynnistä!"
+    },
+    "experience": {
+      "title": "Työkokemus",
+      "solidabis": {
+        "title": "Solidabis Oy",
+        "description": "Softakehitystä konsulttina erinäisissä asiakasprojekteissa sekä backend- että frontend-rooleissa. Alkanut maaliskuussa 2019."
+      }
+    },
+    "projects": {
+      "title": "Henkilökohtaisia projekteja",
+      "varastolista": {
+        "title": "Säteilytekniikan varastolista",
+        "description": "Varastolista, jonka tein opiskelijana HUS:n säteilytekniikan osastolle. Melko simppeli CRUD-appi, jolla käyttäjä voi hakea, lisätä, muokata, tai poistaa varaosia. Osalistan voi myös importata ja exportata excelinä. Osanumeroiden lukemisen avuksi on QR-koodinlukija, joka käyttää puhelimen kameraa."
+      },
+      "monitorimittari": {
+        "title": "Monitorimittari",
+        "description": "Toinen HUS:n säteilytekniikalle tehty Python-ohjelma. Tällä voidaan kirjata LXscan-luminanssimittarilla mitattuja testituloksia sapluunana käytettävään .xlsx-tiedostoon."
+      },
+      "dopepod": {
+        "title": "dopepod",
+        "description": "Web app, joka noutaa podcasteja iTunesin API:n avulla (ja kaapii lisätietoa muista lähteistä). Käyttäjä voi etsiä ja soittaa satoja tuhansia ilmaisia podcasteja, sekä rekisteröityneenä myös tehdä tilauksia ja muodostaa soittolistan."
+      },
+      "dop3pod": {
+        "title": "dop3pod",
+        "description": "Versio 3.0 ylläolevasta lemmikkiprojektistani. Pyrkii toteuttamaan vastaavan toiminnallisuuden modernimmilla teknologioilla ja kehittyneemmällä arkkitehtuurilla. Tärkeimpänä uutuutena projektissa on Go-backend ja Flutterilla kehitetty Android/iOS-app."
+      },
+      "noteowl": {
+        "title": "NoteOwl",
+        "description": "Web appi, jolla voi kirjata muistiinpanoja sekä assosioida niitä kalenteripäivämäärien mukaan. Frontendinä käytössä on React ja backendinä Node. Tietokanta on MongoDB."
+      }
+    },
+    "education": {
+      "title": "Koulutus & muita kursseja",
+      "tradenomi": {
+        "title": "Tietojenkäsittelyn koulutus, tradenomi (AMK)",
+        "description": "Tradenomin tutkinto Haaga-Helia AMK:ssa, suuntautumisalana ohjelmistokehitys. Aloitettu 2018, kesken."
+      },
+      "fullstack": {
+        "title": "Fullstack Open 2021",
+        "description": "Helsingin yliopiston avoin fullstack-ohjelmoinnin verkkokurssi. Suoritettu 2021."
+      },
+      "elements": {
+        "title": "Elements of AI",
+        "description": "Helsingin yliopiston tarjoama avoin verkkokurssi tekoälyn perusteista. Suoritettu 2019."
+      },
+      "java": {
+        "title": "Ohjelmoinnin perusteet ja jatkokurssi 2017",
+        "description": "Helsingin yliopiston kattava, kaksiosainen avoin Java-ohjelmoinnin verkkokurssi. Suoritettu 2017."
+      },
+      "cs50x": {
+        "title": "CS50X",
+        "description": "Harvardin avoin tietojenkäsittelytieteen verkkokurssi. Tämä kurssi toimi alkusykäyksenä, joka sai minut innostumaan koodauksen opiskelusta. Suoritettu 2017."
+      }
+    },
+    "common": {
+      "keywords": "Avainsanat:",
+      "links": "Linkit"
+    }
+  },
+  "footer": {
+    "updated": "Päivitetty"
+  }
+}

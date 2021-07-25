@@ -1,0 +1,74 @@
+{
+  "portfolio": {
+    "title": "Portfolio in English",
+    "greeting": "Hi ツ",
+    "img_alt": "A photo of me",
+    "print_pdf": "Print PDF",
+    "bio": {
+      "line1": "I'm Santtu Nykänen, a thirty-something fullstack-developer from Helsinki.",
+      "line2": "I switched careers about four years ago and have been working as a developer for just over two years now. Along with work I study Software Development at Haaga-Helia University.",
+      "line3": "At work I've mostly coded Python, Java and JavaScript, in no particlar order. Lately I've also been studying stuff like Go, Flutter and Kotlin.",
+      "line4": "This portfolio includes brief information about my personal projects, as well as links to my online profiles, such as <a href='https://www.linkedin.com/in/santtu-nykanen/'>LinkedIn</a> and <a href='https://github.com/cyanidesayonara'>GitHub</a>, which are likely to always have more accurate and up-to-date information. Thanks for visiting!"
+    },
+    "experience": {
+      "title": "Work Experience",
+      "solidabis": {
+        "title": "Solidabis Oy",
+        "description": "Software development as a consultant on various client projects in both backend and frontend roles. Started in March 2019."
+      }
+    },
+    "projects": {
+      "title": "Personal Projects",
+      "varastolista": {
+        "title": "Säteilytekniikan varastolista",
+        "description": "An inventory app I created as a student for my friend's department at the Helsinki University Hospital. It's a fairly simple CRUD app that enables the user to find, add, edit, or delete spare parts. The parts list can also be imported or exported as an Excel file. A QR-code reader functionality that uses your phone camera can be used input part numbers."
+      },
+      "monitorimittari": {
+        "title": "Monitorimittari",
+        "description": "Another program made for the Helsinki University Hospital. This one is a Python-based GUI-program for logging test results with an LXscan spot luminance meter and saving them onto an .xlsx template."
+      },
+      "dopepod": {
+        "title": "dopepod",
+        "description": "A web app that catalogues podcasts with the help of the iTunes API (and scrapes additional information from other sources). A user is able to listen to hundreds of thousands of free podcasts. A registered user is also able to subscribe to podcasts and to create a playlist."
+      },
+      "dop3pod": {
+        "title": "dop3pod",
+        "description": "Version 3.0 of my above-mentioned pet project. Aims to recreate similar functionality using more modern technologies and a more advanced architecture. The most prominent additions to the project are a Go backend and an Android/iOS app developed with Flutter."
+      },
+      "noteowl": {
+        "title": "NoteOwl",
+        "description": "A web app that's used for writing down notes and associating them with dates on a calendar. Uses React on the frontend and Node on the backend. The database is a MongoDB."
+      }
+    },
+    "education": {
+      "title": "Education & Other Courses",
+      "tradenomi": {
+        "title": "Bachelor of Business Administration",
+        "description": "Bachelor's degree in Business Information Technology at Haaga-Helia University, majoring in Software Development. Started in 2018, ongoing."
+      },
+      "fullstack": {
+        "title": "Fullstack Open 2021",
+        "description": "An open online course on fullstack development by the University of Helsinki. Completed in 2021."
+      },
+      "elements": {
+        "title": "Elements of AI",
+        "description": "An open online course on the basics of AI by the University of Helsinki. Completed in 2019."
+      },
+      "java": {
+        "title": "Ohjelmoinnin perusteet ja jatkokurssi 2017",
+        "description": "An open online course on Java development by the University of Helsinki consisting of introductory and advanced parts. Completed in 2017."
+      },
+      "cs50x": {
+        "title": "CS50X",
+        "description": "An open online course on computer science by Harvard University. Singularly responsible for initially making me want to study coding. Completed in 2017."
+      }
+    },
+    "common": {
+      "keywords": "Keywords:",
+      "links": "Links"
+    }
+  },
+  "footer": {
+    "updated": "Updated"
+  }
+}
