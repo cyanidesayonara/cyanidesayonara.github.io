@@ -1,0 +1,14 @@
+<template>
+  <section id="error">
+    <h1 v-if="error.statusCode === 404">Page not found</h1>
+    <h1 v-else>An error occurred</h1>
+  </section>
+</template>
+
+<script>
+  export default {
+    layout: 'error',
+    // eslint-disable-next-line vue/require-prop-types
+    props: ['error'] // you can set a custom layout for the error page
+  }
+</script>
