@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1628446080",layout:"error",error:{statusCode:404,message:"Page could not be found"},serverRendered:false,routePath:"\u002Fblog\u002Fblog",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:null},content:{dbHash:"65e3442f"}}};
