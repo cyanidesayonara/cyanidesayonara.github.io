@@ -1,18 +1,6 @@
-/*!
- * tiny-cookie - A tiny cookie manipulation plugin
- * https://github.com/Alex1990/tiny-cookie
- * Under the MIT license | (c) Alex Chao
- */
+//! moment.js
 
-
-/**
- * Prism: Lightweight, robust, elegant syntax highlighting
- *
- * @license MIT <https://opensource.org/licenses/MIT>
- * @author Lea Verou <https://lea.verou.me>
- * @namespace
- * @public
- */
+//! moment.js locale configuration
 
 
 /*!
@@ -35,10 +23,13 @@
  */
 
 
-/*!
- * tiny-cookie - A tiny cookie manipulation plugin
- * https://github.com/Alex1990/tiny-cookie
- * Under the MIT license | (c) Alex Chao
+/**
+ * Prism: Lightweight, robust, elegant syntax highlighting
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
  */
 
 
@@ -58,8 +49,3 @@
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
-
-
-//! moment.js
-
-//! moment.js locale configuration
