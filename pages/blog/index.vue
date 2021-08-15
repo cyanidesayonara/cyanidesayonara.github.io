@@ -22,11 +22,11 @@
       <hr />
     </article>
     <div>
-      <button @click="getMorePosts">
+      <button class="see-more" @click="getMorePosts">
         See more posts
       </button>
     </div>
-    <search :search="search" />
+    <search class="search" :search="search" />
   </section>
 </template>
 
@@ -67,23 +67,20 @@ export default {
   },
   methods: {
     async getMorePosts() {
-      const blogPosts = await this.$content('blog', { deep: true })
+      const posts = await this.$content('blog', { deep: true })
         .only(['title', 'createdAt', 'description', 'image', 'path'])
         .sortBy('createdAt', 'desc')
         .skip(5 * this.page)
         .limit(5)
         .fetch()
-      blogPosts.forEach((post) => {
+      // if (!posts.length) console.log("no more posts")
+      posts.forEach((post) => {
         this.posts.push(post)
       })
       this.page++
     },
     formatDate(date) {
       return moment(date).format('MMMM Do YYYY, HH:mm:ss');
-    },
-    execSearch() {
-      if (this.search === '') return '/blog/'
-      return '/search/?q=' + this.search.toLowerCase()
     },
   },
 }

@@ -9,6 +9,6 @@
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
     </aside>
-    <small>Updated 2021-08-08</small>
+    <small>Updated 2021-08-15</small>
   </footer>
 </template>

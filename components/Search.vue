@@ -8,7 +8,7 @@
         aria-label="Search Input"
       />
       <nuxt-link :to="execSearch()">
-        <button aria-label="Search">
+        <button aria-label="Search" class="search-button">
           Search
         </button>
       </nuxt-link>

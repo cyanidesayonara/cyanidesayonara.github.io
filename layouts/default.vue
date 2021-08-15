@@ -32,7 +32,7 @@ export default {
   justify-content: space-between;
   align-items: stretch;
 }
-a {
+a, .see-more, .search-button {
   font-weight: bold;
   color: #2cb3ac;
 }
@@ -128,5 +128,12 @@ main h3 {
   margin-top: 1.6em;
   margin-bottom: .6em;
   line-height: 1.6;
+}
+.search {
+  margin-top: 20px;
+}
+.search input {
+  border: 2px solid #2cb3ac;
+  padding: 5px;
 }
 </style>

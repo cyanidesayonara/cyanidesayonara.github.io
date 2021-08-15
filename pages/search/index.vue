@@ -28,11 +28,11 @@
       <hr />
     </article>
     <div>
-      <button v-if="!query" @click="getMorePosts">
+      <button class="see-more" @click="getMorePosts">
         See more posts
       </button>
     </div>
-    <search :search="search" />
+    <search class="search" :search="search" />
   </section>
 </template>
 
@@ -43,20 +43,18 @@ export default {
   key: (to) => to.fullPath,
   async asyncData({ $content, route }) {
     const query = route.query.q
-    let posts
-    if (!query) {
-      posts = await $content('blog', { deep: true })
+    const posts = query
+      ? await $content('blog', { deep: true })
+        .only(['title', 'createdAt', 'description', 'image', 'path'])
+        .sortBy('createdAt', 'desc')
+        .search('title', query)
+        .limit(5)
+        .fetch()
+      : await $content('blog', { deep: true })
         .only(['title', 'createdAt', 'description', 'image', 'path'])
         .sortBy('createdAt', 'desc')
         .limit(5)
         .fetch()
-    } else {
-      posts = await $content('blog', { deep: true })
-        .only(['title', 'createdAt', 'description', 'image', 'path'])
-        .sortBy('createdAt', 'desc')
-        .search('title', query)
-        .fetch()
-    }
     return {
       posts,
       query,
@@ -89,23 +87,29 @@ export default {
   watchQuery: ['q'],
   methods: {
     async getMorePosts() {
-      const blogPosts = await this.$content('blog', { deep: true })
-        .only(['title', 'createdAt', 'description', 'image', 'path'])
-        .sortBy('createdAt', 'desc')
-        .skip(5 * this.page)
-        .limit(5)
-        .fetch()
-      blogPosts.forEach((post) => {
+      const query = this.$route.query.q
+      const posts = query
+        ? await this.$content('blog', { deep: true })
+          .only(['title', 'createdAt', 'description', 'image', 'path'])
+          .sortBy('createdAt', 'desc')
+          .search('title', query)
+          .skip(5 * this.page)
+          .limit(5)
+          .fetch()
+        : await this.$content('blog', { deep: true })
+          .only(['title', 'createdAt', 'description', 'image', 'path'])
+          .sortBy('createdAt', 'desc')
+          .skip(5 * this.page)
+          .limit(5)
+          .fetch()
+      // if (!posts.length) console.log("no more posts")
+      posts.forEach((post) => {
         this.posts.push(post)
       })
       this.page++
     },
     formatDate(date) {
       return moment(date).format('MMMM Do YYYY, hh:mm:ss');
-    },
-    execSearch() {
-      if (this.search === '') return '/search/'
-      return '/search/?q=' + this.search.toLowerCase()
     },
   },
 }
