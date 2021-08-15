@@ -1,21 +1,6 @@
 <template>
   <section id="blogs">
     <div>
-      <aside>
-        <form>
-          <input
-            v-model="search"
-            type="search"
-            placeholder="Search Articles"
-            aria-label="Search Input"
-          />
-          <nuxt-link :to="execSearch()">
-            <button aria-label="Search">
-              Search
-            </button>
-          </nuxt-link>
-        </form>
-      </aside>
       <h1 v-if="!query">Latest posts</h1>
       <h1 v-if="query">Search results for: {{ query }}</h1>
     </div>
@@ -47,6 +32,7 @@
         See more posts
       </button>
     </div>
+    <search :search="search" />
   </section>
 </template>
 

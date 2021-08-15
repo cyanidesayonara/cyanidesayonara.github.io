@@ -15,6 +15,7 @@ tutorial will show you how to create and develop new features for this very proj
 Thanks for visiting!
 
 <p>
+  Portfolio in
   <nuxt-link to="/portfolio" exact>
     English
   </nuxt-link>

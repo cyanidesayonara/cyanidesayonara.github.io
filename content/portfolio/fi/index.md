@@ -14,12 +14,13 @@ ensimmäinen tutoriaali käsitteleekin sitä kuinka tämä samainen projekti on 
 Kiitos käynnistä!
 
 <p>
+  Portfolio
   <nuxt-link to="/portfolio" exact>
-    English
+    Englanniksi
   </nuxt-link>
   <span class="pipe"> | </span>
   <nuxt-link to="/portfolio/fi">
-    Finnish
+    Suomeksi
   </nuxt-link>
 </p>
 
