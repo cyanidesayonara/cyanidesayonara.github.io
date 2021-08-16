@@ -52,6 +52,7 @@ body {
 ol, ul {
   list-style: unset;
   padding-inline-start: 40px;
+  margin: 16px 0;
 }
 header,
 main,
@@ -101,6 +102,7 @@ a:hover {
 }
 #author img {
   width: 20%;
+  margin: 0;
 }
 main {
   flex: auto;

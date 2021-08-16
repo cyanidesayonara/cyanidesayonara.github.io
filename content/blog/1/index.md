@@ -14,7 +14,7 @@ This blog will contain tutorials and walkthroughs of my personal projects as wel
 
 In the next few blog posts we will drill into the nitty-gritty of creating a JAMstack blog with the Vue-based framework Nuxt.js and its @nuxt/content module, which will allow us to easily turn Markdown files into blog posts.
 
-If that means nothing to you, don't worry: We will start with an overview of the terms mentioned in the previous paragraph as well as an explantion of the general purpose of the blog itself.
+If that means nothing to you, don't worry: We will start with an overview of the terms mentioned in the previous paragraph as well as an explanation of the general purpose of the blog itself.
 
 At this point the blog is functional, but very bare bones. Hence the following posts will also include tutorials on how to add new features.
 

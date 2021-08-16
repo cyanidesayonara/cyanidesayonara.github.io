@@ -27,7 +27,7 @@ Thanks for visiting!
 
 ***
 
-## Portfolio
+## Introduction
 
 I'm a career changer who started studying coding about four years ago, in the summer of 2017. I still remember the day
 when I first started. It was June 1st.

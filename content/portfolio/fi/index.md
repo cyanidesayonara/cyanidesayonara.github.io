@@ -26,7 +26,7 @@ Kiitos käynnistä!
 
 ***
 
-## Portfolio
+## Esittely
 
 Olen uranvaihtaja, joka aloitti koodauksen opiskelun nelisen vuotta sitten, kesällä 2017. Muistan vieläkin päivän, jona
 aloitin. Se oli kesäkuun 1.
