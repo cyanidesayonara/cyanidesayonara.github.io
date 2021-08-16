@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Header from "../components/Header.vue"
+import Footer from "../components/Footer.vue"
 
 export default {
   components: {
@@ -32,7 +32,7 @@ export default {
   justify-content: space-between;
   align-items: stretch;
 }
-a, .see-more, .search-button {
+a, .see-more, .add-new, .search-button {
   font-weight: bold;
   color: #2cb3ac;
 }

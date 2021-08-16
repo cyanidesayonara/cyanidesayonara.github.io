@@ -1,6 +1,11 @@
 <template>
   <section id="blogs">
     <div>
+      <aside v-if="isDev()">
+        <button class="add-new" @click="addNewPost">
+          Add new post
+        </button>
+      </aside>
       <h1>Latest posts</h1>
     </div>
     <article v-for="post in posts" :key="post.title">
@@ -31,7 +36,7 @@
 </template>
 
 <script>
-import moment from 'moment'
+import moment from "moment"
 
 export default {
   key: (to) => to.fullPath,
@@ -44,7 +49,7 @@ export default {
       .fetch()
     return { posts }
   },
-  data () {
+  data() {
     return {
       page: 1,
       search: '',
@@ -79,9 +84,15 @@ export default {
       })
       this.page++
     },
-    formatDate(date) {
-      return moment(date).format('MMMM Do YYYY, HH:mm:ss');
+    addNewPost() {
+      console.log("add new post")
     },
+    formatDate(date) {
+      return moment(date).format('MMMM Do YYYY, HH:mm:ss')
+    },
+    isDev() {
+      return process.env.NODE_ENV === 'development'
+    }
   },
 }
 </script>
