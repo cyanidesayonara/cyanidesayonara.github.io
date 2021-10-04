@@ -1,10 +1,16 @@
-<img src="index.png" alt="Kuva minusta"></img>
+<aside>
+  <nuxt-link to="/en">EN</nuxt-link>
+  <span class="pipe"> | </span>
+  <nuxt-link to="/fi">FI</nuxt-link>
+</aside>
 
 # Moi ツ
 
+<img src="photo.png" class="float-right" alt="Kuva minusta" />
+
 Olen Santtu Nykänen, kolmikymppinen fullstack-kehittäjä Helsingistä.
 
-Tämä nettisivu sisältää <nuxt-link to="/portfolio">portfolioni</nuxt-link>, josta löytyy tietoa työhistoriastani,
+Tämä nettisivu sisältää <nuxt-link to="/portfolio/fi">portfolioni</nuxt-link>, josta löytyy tietoa työhistoriastani,
 omista projekteistani, koulutuksista, yms., sekä linkkejä nettiprofiileihin, kuten
 <a href='https://www.linkedin.com/in/santtu-nykanen/'>LinkedIn</a> ja <a href='https://github.com/cyanidesayonara'>GitHub</a>.
 
@@ -13,12 +19,4 @@ ensimmäinen tutoriaali käsitteleekin sitä kuinka tämä samainen projekti on 
 
 Kiitos käynnistä!
 
-<p>
-  <nuxt-link to="/portfolio" exact>
-    English
-  </nuxt-link>
-  <span class="pipe"> | </span>
-  <nuxt-link to="/portfolio/fi">
-    Finnish
-  </nuxt-link>
-</p>
+***

@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <aside aria-label="Linkit">
+    <small>Updated 2021-10-05</small>
+    <div>
       <a href="https://www.linkedin.com/in/santtu-nykanen/">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>
       </a>
@@ -8,7 +9,6 @@
       <a href="https://github.com/cyanidesayonara">
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
-    </aside>
-    <small>Updated 2021-08-16</small>
+    </div>
   </footer>
 </template>

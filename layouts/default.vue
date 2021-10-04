@@ -8,18 +8,6 @@
   </div>
 </template>
 
-<script>
-import Header from "../components/Header.vue"
-import Footer from "../components/Footer.vue"
-
-export default {
-  components: {
-    Header,
-    Footer
-  }
-}
-</script>
-
 <style>
 #app {
   -webkit-font-smoothing: antialiased;
@@ -60,23 +48,26 @@ footer {
   padding: 20px;
 }
 header,
-footer,
-aside {
+aside,
+footer {
   font-size: 22px;
 }
-aside,
-#author img,
-#portfolio img {
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+aside {
   float: right;
 }
 img {
   border-radius: 0.2rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
   width: 40%;
-  margin: 20px;
+  margin: 3%;
 }
 hr {
-  margin: 30px 0px;
+  margin: 30px 0;
   border: 0;
   height: 1px;
   background-image: linear-gradient(
@@ -120,7 +111,7 @@ main h1 {
 main h2 {
   font-weight: 700;
   font-size: 1.5em;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
   line-height: 1.3333333;
 }
@@ -137,5 +128,19 @@ main h3 {
 .search input {
   border: 2px solid #2cb3ac;
   padding: 5px;
+}
+.nuxt-content img {
+  cursor: pointer;
+}
+.nuxt-content h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.nuxt-content h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.nuxt-content p {
+  margin-bottom: 20px;
 }
 </style>

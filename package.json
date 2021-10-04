@@ -18,6 +18,7 @@
     "moment": "^2.29.1",
     "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.27.3",
+    "transliteration": "^2.2.0",
     "vue-cookie": "^1.1.4"
   },
   "devDependencies": {

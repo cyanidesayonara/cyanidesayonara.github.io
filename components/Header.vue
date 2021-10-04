@@ -1,6 +1,6 @@
 <template>
   <header>
-    <aside aria-label="Linkit">
+    <aside aria-label="Links">
       <a href="https://www.linkedin.com/in/santtu-nykanen/">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>
       </a>
@@ -11,7 +11,7 @@
     </aside>
     <nav>
       <nuxt-link to="/portfolio/">PORTFOLIO</nuxt-link>
-        <span class="pipe"> | </span>
+      <span class="pipe"> | </span>
       <nuxt-link to="/blog">BLOG</nuxt-link>
     </nav>
   </header>

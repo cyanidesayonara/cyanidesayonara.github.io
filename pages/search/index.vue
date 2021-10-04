@@ -23,7 +23,7 @@
           {{ post.title }}
         </h3>
       </nuxt-link>
-      <p>Published: {{ formatDate(post.createdAt) }}</p>
+      <p>Published: {{ formatDate(post.date) }}</p>
       <p>{{ post.description }}</p>
       <hr />
     </article>
@@ -45,14 +45,14 @@ export default {
     const query = route.query.q
     const posts = query
       ? await $content('blog', { deep: true })
-        .only(['title', 'createdAt', 'description', 'image', 'path'])
-        .sortBy('createdAt', 'desc')
+        .only(['title', 'createdAt', 'description', 'image', 'path', 'date'])
+        .sortBy('date', 'desc')
         .search('title', query)
         .limit(5)
         .fetch()
       : await $content('blog', { deep: true })
-        .only(['title', 'createdAt', 'description', 'image', 'path'])
-        .sortBy('createdAt', 'desc')
+        .only(['title', 'createdAt', 'description', 'image', 'path', 'date'])
+        .sortBy('date', 'desc')
         .limit(5)
         .fetch()
     return {
@@ -109,7 +109,7 @@ export default {
       this.page++
     },
     formatDate(date) {
-      return moment(date).format('MMMM Do YYYY, hh:mm:ss');
+      return moment(date).format('MMMM Do YYYY');
     },
   },
 }

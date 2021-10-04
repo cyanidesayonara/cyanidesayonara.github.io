@@ -1,28 +1,17 @@
 <template>
-  <section>
-    <article>
-      <h1>{{ post.title }}</h1>
-      <p>Published: {{ formatDate(post.createdAt) }}</p>
-      <img
-        v-if="post.image"
-        id="header-image"
-        :src="
-          require('~/content/blog/' +
-            post.path.split('/')[1] +
-            '/images/' +
-            post.image)
-        "
-        :alt="post.title"
-      />
-      <hr />
-      <table-of-contents :toc="post.toc" />
-      <nuxt-content :document="post" />
-      <hr />
-    </article>
+  <article>
+    <h1>{{ post.title }}</h1>
+    <p>Published: {{ formatDate(post.date) }}</p>
+    <p>Last updated: {{ formatDate(post.updatedAt) }}</p>
+    <hr />
+    <table-of-contents :toc="post.toc" />
+    <nuxt-content :document="post" />
+    <hr />
     <!-- <prev-next :prev="prev" :next="next" /> -->
     <author :author="post.author"></author>
     <!-- <more-posts :more="morePosts" /> -->
-  </section>
+    <img-modal v-show="showModal" @close-modal="showModal = false" />
+  </article>
 </template>
 
 <script>
@@ -53,6 +42,11 @@ export default {
       })
     }
   },
+  data() {
+    return {
+      showModal: false,
+    }
+  },
   head() {
     return {
       title: "Blog - " + this.post.title,
@@ -70,6 +64,19 @@ export default {
   },
   mounted() {
     Prism.highlightAll()
+    document.querySelectorAll(".nuxt-content img").forEach((el) => {
+      el.addEventListener('click', (e) => {
+        this.showModal = true
+        const element = e.target.cloneNode(true)
+        element.className = ''
+        element.style.float = null
+        element.style.margin = "unset"
+        element.style.width = "100%"
+        const imgModal = document.getElementById("img-modal")
+        imgModal.innerHTML = ''
+        imgModal.appendChild(element)
+      })
+    })
   },
   methods: {
     formatDate(date) {
@@ -79,20 +86,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.nuxt-content h2 {
-  font-weight: bold;
-  font-size: 28px;
-}
-.nuxt-content h3 {
-  font-weight: bold;
-  font-size: 22px;
-}
-.nuxt-content p {
-  margin-bottom: 20px;
-}
-#header-image {
-  width: 100%;
-}
-</style>

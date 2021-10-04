@@ -17,6 +17,9 @@ https://phrase.com/blog/posts/nuxt-js-tutorial-i18n/
 https://www.npmjs.com/package/nuxt-fontawesome  
 https://nuxtjs.org/docs/2.x/components-glossary/pages-head  
 https://nuxtjs.org/docs/2.x/concepts/views#error-page  
+https://blog.openreplay.com/building-your-own-blog-with-nuxt-content-and-tailwind  
+https://github.com/nuxt/content/issues/702  
+https://dev.to/davidemaye/how-to-create-a-modal-component-in-nuxt-38g1  
 
 ## Build Setup
 

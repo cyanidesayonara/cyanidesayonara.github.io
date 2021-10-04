@@ -22,7 +22,7 @@
         />
         <h3>{{ post.title }}</h3>
       </nuxt-link>
-      <p>Published: {{ formatDate(post.createdAt) }}</p>
+      <p>Published: {{ formatDate(post.date) }}</p>
       <p>{{ post.description }}</p>
       <hr />
     </article>
@@ -42,9 +42,9 @@ export default {
   key: (to) => to.fullPath,
   async asyncData({ $content, route }) {
     const posts = await $content('blog', { deep: true })
-      .only(['title', 'createdAt', 'description', 'image', 'path'])
+      .only(['title', 'createdAt', 'description', 'image', 'path', 'date'])
       .where({ dir: { $ne: route.path } })
-      .sortBy('createdAt', 'desc')
+      .sortBy('date', 'desc')
       .limit(5)
       .fetch()
     return { posts }
@@ -73,8 +73,8 @@ export default {
   methods: {
     async getMorePosts() {
       const posts = await this.$content('blog', { deep: true })
-        .only(['title', 'createdAt', 'description', 'image', 'path'])
-        .sortBy('createdAt', 'desc')
+        .only(['title', 'createdAt', 'description', 'image', 'path', 'date'])
+        .sortBy('date', 'desc')
         .skip(5 * this.page)
         .limit(5)
         .fetch()
@@ -88,7 +88,7 @@ export default {
       console.log("add new post")
     },
     formatDate(date) {
-      return moment(date).format('MMMM Do YYYY, HH:mm:ss')
+      return moment(date).format('MMMM Do YYYY')
     },
     isDev() {
       return process.env.NODE_ENV === 'development'

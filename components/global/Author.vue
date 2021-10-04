@@ -1,12 +1,12 @@
 <template>
-  <article id="author">
-    <img :src="author.image" />
-    <h4>Author</h4>
+  <section id="author">
+    <img class="float-right" :src="author.image" alt="A picture of me" />
+    <strong>Author</strong>
     <p>{{ author.name }}</p>
-    <h4>Bio</h4>
+    <strong>Bio</strong>
     <p>{{ author.bio }}</p>
     <hr />
-  </article>
+  </section>
 </template>
 
 <script>
