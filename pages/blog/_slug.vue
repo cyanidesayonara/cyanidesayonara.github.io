@@ -75,6 +75,8 @@ export default {
         const imgModal = document.getElementById("img-modal")
         imgModal.innerHTML = ''
         imgModal.appendChild(element)
+        const imgModalText = document.getElementById("img-modal-text")
+        imgModalText.innerHTML = element.alt
       })
     })
   },

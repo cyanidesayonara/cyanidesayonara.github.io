@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <small>Updated 2021-10-05</small>
+    <small>Updated 2021-10-07</small>
     <div>
       <a href="https://www.linkedin.com/in/santtu-nykanen/">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>

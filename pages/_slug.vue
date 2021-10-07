@@ -1,5 +1,5 @@
 <template>
-  <article id="portfolio">
+  <article id="index">
     <nuxt-content :document="post" />
   </article>
 </template>

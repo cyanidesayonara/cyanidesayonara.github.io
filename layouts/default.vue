@@ -33,6 +33,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  line-height: 1.7;
   font-family: "Titillium Web", sans-serif;
   margin: 0;
   overflow-y: scroll;
@@ -64,7 +65,7 @@ img {
   border-radius: 0.2rem;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
   width: 40%;
-  margin: 3%;
+  margin: 2%;
 }
 hr {
   margin: 30px 0;
@@ -129,18 +130,7 @@ main h3 {
   border: 2px solid #2cb3ac;
   padding: 5px;
 }
-.nuxt-content img {
+article:not(#index) .nuxt-content img {
   cursor: pointer;
-}
-.nuxt-content h2 {
-  font-weight: bold;
-  font-size: 28px;
-}
-.nuxt-content h3 {
-  font-weight: bold;
-  font-size: 22px;
-}
-.nuxt-content p {
-  margin-bottom: 20px;
 }
 </style>

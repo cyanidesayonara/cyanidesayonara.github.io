@@ -30,7 +30,10 @@ näytti vähintäänkin haastavalta.
 Kuinka ollakaan tuona kohtalokkaana päivänä, valvottuani pikkutunneille kasatessani
 hölmöä <a href="https://scratch.mit.edu/projects/164378114/">koripallopeliä</a>
 opetuskäyttöön tarkoitetulla Legomaisella ohjelmointikielellä nimeltä Scratch, olin
-jo päättänyt mitä haluan tehdä seuraavaksi elämässäni.
+jo päättänyt mitä haluan tehdä seuraavaksi.
+
+Vaikka näyttikin siltä, että opin tie on pitkä ja raskas, en ollut nauttinut opiskelusta
+näin paljoa pitkään aikana.
 
 Jotenka, ahmittuani tuon kurssin läpi ja opiskeltuani muita lähteitä käyttäen vajaat
 pari vuotta, löysin viimein ensimmäisen koodaustyöni keväällä 2019. Työskentelen
@@ -107,7 +110,7 @@ viime aikoina olen lukenut paljon Android-kehityksestä Kotlinilla ja Flutterill
   käsinkirjaamiselta.
 
   Ohjelman ulkoasu on rakennettu käyttäen PyQt5-kirjastoa ja syntyneet Python tiedostot on 
-  pyöräytetty yhdeksi .exe-tiedostoksi PyInstallerin avulla. 
+  pyöräytetty yhdeksi .exe-tiedostoksi PyInstallerilla. 
   
   Avainsanat: *Python, PyQt5, PyInstaller*
 

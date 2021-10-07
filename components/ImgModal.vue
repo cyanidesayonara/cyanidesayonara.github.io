@@ -1,10 +1,12 @@
 <template>
   <div class="modal-overlay" @click="$emit('close-modal')">
-    <div id="img-modal" class="modal">
-    </div>
     <button class="close" @click="$emit('close-modal')">
       X
     </button>
+    <div id="img-modal" class="modal">
+    </div>
+    <p id="img-modal-text">
+    </p>
   </div>
 </template>
 
@@ -26,7 +28,7 @@ export default {
 }
 .modal {
   text-align: center;
-  margin: 10% auto;
+  margin: 20% auto;
   padding: 20px;
   border-radius: 0.2rem;
 }
@@ -38,5 +40,13 @@ export default {
   right: 0;
   font-size: 26px;
   cursor: pointer;
+}
+#img-modal-text {
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 17%;
+  font-size: calc(12px + 1vw)
 }
 </style>

@@ -30,16 +30,19 @@ staff, and looked frankly intimidating.
 Yet on that fateful first day, as I was staying up till the wee hours piecing
 together a silly <a href="https://scratch.mit.edu/projects/164378114/">basketball
 game</a> with an educational, Lego-like programming language called Scratch, I'd
-already decided what I wanted to do next in my life.
+already decided what I wanted to do next.
+
+Event though the road to being employable seemed long and hard, I hadn't had this much fun
+studying in a long time.
 
 So, after devouring the course and teaching myself through various means for a
 little under two years, I finally found my first coding gig in the spring of 2019.
-Hired as a consultant, I've since had the pleasure of working on different projects
+Working as a consultant, I've since had the chance to work on few different projects
 for a total of two and a half years now.
 
 At work I've mostly written Python, Java and JavaScript, in no particular order.
 On my own time I like to experiment and learn new stuff; most recently I've been
-reading up with a lot of enthusiasm about Android development with Kotlin and Flutter.
+reading up with a lot of excitement about Android development with Kotlin and Flutter.
 
 ***
 
@@ -78,8 +81,8 @@ reading up with a lot of enthusiasm about Android development with Kotlin and Fl
 
   <img src="varastolista.png" class="float-right" alt="Screenshot of varastolista" />
 
-  An inventory app I created as a student for my friend's department at the Helsinki
-  University Hospital.
+  An inventory app I created as a student for my friend's department at the Hospital
+  District of Helsinki.
 
   It's a fairly simple CRUD app that enables the user to find, add, edit, or delete
   spare parts.
@@ -100,7 +103,7 @@ reading up with a lot of enthusiasm about Android development with Kotlin and Fl
 
   <img src="monitorimittari.png" class="float-right" alt="Screenshot of monitorimittari" />
 
-  Another program made for the Helsinki University Hospital.
+  Another program I made for the guys at the Hospital District of Helsinki.
 
   This one is a little Python-based GUI-program for logging test results with an
   LXscan spot luminance meter and saving them onto an .xlsx template, thus saving
@@ -251,11 +254,11 @@ reading up with a lot of enthusiasm about Android development with Kotlin and Fl
 
 * 
   <aside>
-    <a rel="noreferrer" to="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">
+    <a rel="noreferrer" href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">
       <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
     </a>
     <span class="pipe"> | </span>
-    <a to="https://github.com/cyanidesayonara/cs50-mooc">
+    <a href="https://github.com/cyanidesayonara/cs50-mooc">
       <font-awesome-icon :icon="['fab', 'github']"/>
     </a>
   </aside>

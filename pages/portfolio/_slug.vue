@@ -68,8 +68,7 @@ export default {
     }
   },
   mounted() {
-    const elements = document.querySelectorAll(".nuxt-content img")
-    elements.forEach((el) => {
+    document.querySelectorAll(".nuxt-content img").forEach((el) => {
       el.addEventListener('click', (e) => {
         this.showModal = true
         const element = e.target.cloneNode(true)
@@ -80,6 +79,8 @@ export default {
         const imgModal = document.getElementById("img-modal")
         imgModal.innerHTML = ''
         imgModal.appendChild(element)
+        const imgModalText = document.getElementById("img-modal-text")
+        imgModalText.innerHTML = element.alt
       })
     })
   },
