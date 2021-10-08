@@ -25,15 +25,16 @@ sekä myös kilpailuhenkisyyttäni, lähdin heti innolla mukaan.
 Se kurssi, nimeltään CS50x, oli Harvadin professori David Malanin vetämä ja
 näytti vähintäänkin haastavalta. 
 
-<img src="basketball.png" style="float:left;" alt="Screenshot koripallopelistä" />
+<img src="basketball.png" class="float-left mr-3 mb-0 w-1/2"
+alt="Screenshot koripallopelistä" />
 
 Kuinka ollakaan tuona kohtalokkaana päivänä, valvottuani pikkutunneille kasatessani
 hölmöä <a href="https://scratch.mit.edu/projects/164378114/">koripallopeliä</a>
 opetuskäyttöön tarkoitetulla Legomaisella ohjelmointikielellä nimeltä Scratch, olin
 jo päättänyt mitä haluan tehdä seuraavaksi.
 
-Vaikka näyttikin siltä, että opin tie on pitkä ja raskas, en ollut nauttinut opiskelusta
-näin paljoa pitkään aikana.
+Vaikka näyttikin siltä, että tie ammattilaiseksi on pitkä ja raskas, en ollut nauttinut
+opiskelusta näin paljoa pitkään aikaan.
 
 Jotenka, ahmittuani tuon kurssin läpi ja opiskeltuani muita lähteitä käyttäen vajaat
 pari vuotta, löysin viimein ensimmäisen koodaustyöni keväällä 2019. Työskentelen
@@ -79,7 +80,7 @@ viime aikoina olen lukenut paljon Android-kehityksestä Kotlinilla ja Flutterill
   
   ### Säteilytekniikan varastolista
 
-  <img src="varastolista.png" class="float-right" alt="Screenshot varastolistasta" />
+  <img src="varastolista.png" alt="Screenshot varastolistasta" />
 
   Varastolista, jonka tein opiskelijana HUS:n säteilytekniikan osaston jampoille.
 
@@ -100,7 +101,7 @@ viime aikoina olen lukenut paljon Android-kehityksestä Kotlinilla ja Flutterill
   
   ### Monitorimittari
 
-  <img src="monitorimittari.png" class="float-right" alt="Screenshot monitorimittarista" />
+  <img src="monitorimittari.png" alt="Screenshot monitorimittarista" />
 
   Toinen HUS:n säteilytekniikalle tehty pieni Python-ohjelma.
 
@@ -123,7 +124,7 @@ viime aikoina olen lukenut paljon Android-kehityksestä Kotlinilla ja Flutterill
   
   ### dopepod
 
-  <img src="dopepod.png" class="float-right" alt="Screenshot dopepodista" />
+  <img src="dopepod.png" alt="Screenshot dopepodista" />
 
   Web app, joka tarjoaa laajan katalogin iTunesin API:n avulla noudettuja podcasteja
   (ja kaapii lisätietoa muista lähteistä).
@@ -149,7 +150,7 @@ viime aikoina olen lukenut paljon Android-kehityksestä Kotlinilla ja Flutterill
   
   ### dop3pod
 
-  <img src="dop3pod.png" class="float-right" alt="Screenshot dop3podista" />
+  <img src="dop3pod.png" alt="Screenshot dop3podista" />
   
   Versio 3.0 ylläolevasta lemmikkiprojektistani. Pyrkii toteuttamaan vastaavan
   toiminnallisuuden modernimmilla teknologioilla ja sanoisinko enempi loppuun asti
@@ -173,7 +174,7 @@ viime aikoina olen lukenut paljon Android-kehityksestä Kotlinilla ja Flutterill
   
   ### NoteOwl
 
-  <img src="noteowl.png" class="float-right" alt="Screenshot noteowlista" />
+  <img src="noteowl.png" alt="Screenshot noteowlista" />
 
   Web appi, jolla voi kirjata ylös muistiinpanoja sekä assosioida niitä kalenterista
   löytyvien tehtävien mukaan. Käytössä on värikkäitä, raahattavia post-it -lappuja,

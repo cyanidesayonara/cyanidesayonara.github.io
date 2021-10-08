@@ -6,7 +6,7 @@
 
 # Moi ツ
 
-<img src="photo.png" class="float-right" alt="Kuva minusta" />
+<img src="photo.png" class="float-right ml-3 w-1/2 cursor-default" alt="Kuva minusta" />
 
 Olen Santtu Nykänen, kolmikymppinen fullstack-kehittäjä Helsingistä.
 

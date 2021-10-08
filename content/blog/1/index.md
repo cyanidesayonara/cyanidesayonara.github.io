@@ -21,9 +21,9 @@ If that means nothing to you, don't worry: We will start with an overview of the
 mentioned in the previous paragraph as well as an explanation of the general purpose
 of the blog itself.
 
-<img src="index.png" style="float:left;" alt="Screenshot of the landing page" />
+<img src="index.png" alt="Screenshot of the landing page" />
 
-<-- Here's a screenshot of what the landing page looks like now. It has navigation
+Here's a screenshot of what the landing page looks like now. It has navigation
 links to portfolio/blog, a language selector and a cute photo of me.
 
 Aside from the top bar, all of the content on screen is rendered from Markdown.
@@ -35,9 +35,9 @@ will also include tutorials on how to add new features.
 
 Here's a short list of missing features that I can come up with off the top of my head:
 * ### A button that allows the user to print my resume as a PDF file  
-  <img src="portfolio.png" class="float-right" alt="Screenshot of the portfolio page" />
+  <img src="portfolio.png" alt="Screenshot of the portfolio page" />
   
-  This is what the portfolio page looks like now --->
+  This is what the portfolio page looks like now.
  
   As the porpose of this blog (for now at least) is mainly to be a landing page
   for recruiters, I wanted to create an easy way to print a decent-looking and
@@ -48,9 +48,9 @@ Here's a short list of missing features that I can come up with off the top of m
   generated from the same Markdown file. Stashed in a corner somewhere I would
   like to see a button that says "Print PDF".
 * ### Improving the search page  
-  <img src="search.png" class="float-right" alt="Screenshot of the search page" />
+  <img src="search.png" alt="Screenshot of the search page" />
 
-  This is what the search page looks like now --->
+  This is what the search page looks like now
   
   It shows latest blog posts listed
   in order of publishing date.
@@ -65,9 +65,9 @@ Here's a short list of missing features that I can come up with off the top of m
   The "See more posts" button is also waiting to be implemented, perhaps with a
   spinner and a popup if no posts were found.
 * ### A list of related blog posts & better navigation between blog posts 
-  <img src="blog.png" class="float-right" alt="Screenshot of the blog page" />
+  <img src="blog.png" alt="Screenshot of the blog page" />
 
-  Here's a screenshot of what the blog page looks like now (Inception!) --->
+  Here's a screenshot of what the blog page looks like now.
 
   This might be a more advanced feature, but there could be a list of posts with
   related keywords on the bottom of each post.

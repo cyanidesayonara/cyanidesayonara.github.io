@@ -68,10 +68,7 @@ export default {
       el.addEventListener('click', (e) => {
         this.showModal = true
         const element = e.target.cloneNode(true)
-        element.className = ''
-        element.style.float = null
-        element.style.margin = "unset"
-        element.style.width = "100%"
+        element.className = 'w-full'
         const imgModal = document.getElementById("img-modal")
         imgModal.innerHTML = ''
         imgModal.appendChild(element)

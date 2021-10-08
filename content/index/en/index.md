@@ -6,7 +6,7 @@
 
 # Hi ツ
 
-<img src="photo.png" class="float-right" alt="A picture of me" />
+<img src="photo.png" class="float-right ml-3 w-1/2 cursor-default" alt="A picture of me" />
 
 I'm Santtu Nykänen, a thirty-something fullstack developer from Helsinki.
 

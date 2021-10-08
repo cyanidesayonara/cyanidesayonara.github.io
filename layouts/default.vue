@@ -10,8 +10,10 @@
 
 <style>
 #app {
+  font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
   max-width: 600px;
   margin: auto;
   min-height: 100vh;
@@ -32,11 +34,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
-body {
-  line-height: 1.7;
-  font-family: "Titillium Web", sans-serif;
-  margin: 0;
-  overflow-y: scroll;
+#app#img-modal img {
+  position: fixed;
 }
 ol, ul {
   list-style: unset;
@@ -60,12 +59,11 @@ footer {
 }
 aside {
   float: right;
+  margin-left: 0.75rem;
 }
 img {
   border-radius: 0.2rem;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
-  width: 40%;
-  margin: 2%;
 }
 hr {
   margin: 30px 0;
@@ -93,8 +91,7 @@ a:hover {
   vertical-align: .125em;
 }
 #author img {
-  width: 20%;
-  margin: 0;
+  width: 120px;
 }
 main {
   flex: auto;
@@ -111,17 +108,17 @@ main h1 {
 }
 main h2 {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin-top: 1em;
   margin-bottom: 1em;
   line-height: 1.3333333;
 }
 main h3 {
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.5em;
   margin-top: 1.6em;
   margin-bottom: .6em;
-  line-height: 1.6;
+  line-height: 1.75;
 }
 .search {
   margin-top: 20px;
@@ -130,7 +127,8 @@ main h3 {
   border: 2px solid #2cb3ac;
   padding: 5px;
 }
-article:not(#index) .nuxt-content img {
+.nuxt-content img {
   cursor: pointer;
+  margin-bottom: 1.25em;
 }
 </style>

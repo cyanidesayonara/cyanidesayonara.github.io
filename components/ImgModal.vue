@@ -28,9 +28,8 @@ export default {
 }
 .modal {
   text-align: center;
-  margin: 20% auto;
+  margin: 20vh auto auto;
   padding: 20px;
-  border-radius: 0.2rem;
 }
 .close {
   color: white;
@@ -43,10 +42,12 @@ export default {
 }
 #img-modal-text {
   position: absolute;
-  width: 100%;
+  max-width: 600px;
+  bottom: 80vh;
   color: white;
-  text-align: center;
-  margin-top: 17%;
-  font-size: calc(12px + 1vw)
+  font-size: 18px;
+  margin: 0 20px;
+  max-height: 90px;
+  overflow-y: hidden;
 }
 </style>
