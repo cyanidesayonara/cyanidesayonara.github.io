@@ -21,7 +21,7 @@ If that means nothing to you, don't worry: We will start with an overview of the
 mentioned in the previous paragraph as well as an explanation of the general purpose
 of the blog itself.
 
-<img src="index.png" style="float:left;" alt="Screenshot of the landing page" />
+<img src="index.png" class="float-left mr-3" alt="Screenshot of the landing page" />
 
 <-- Here's a screenshot of what the landing page looks like now. It has navigation
 links to portfolio/blog, a language selector and a cute photo of me.
@@ -35,7 +35,7 @@ will also include tutorials on how to add new features.
 
 Here's a short list of missing features that I can come up with off the top of my head:
 * ### A button that allows the user to print my resume as a PDF file  
-  <img src="portfolio.png" class="float-right" alt="Screenshot of the portfolio page" />
+  <img src="portfolio.png" class="float-right ml-3" alt="Screenshot of the portfolio page" />
   
   This is what the portfolio page looks like now --->
  
@@ -48,7 +48,7 @@ Here's a short list of missing features that I can come up with off the top of m
   generated from the same Markdown file. Stashed in a corner somewhere I would
   like to see a button that says "Print PDF".
 * ### Improving the search page  
-  <img src="search.png" class="float-right" alt="Screenshot of the search page" />
+  <img src="search.png" class="float-right ml-3" alt="Screenshot of the search page" />
 
   This is what the search page looks like now --->
   
@@ -65,7 +65,7 @@ Here's a short list of missing features that I can come up with off the top of m
   The "See more posts" button is also waiting to be implemented, perhaps with a
   spinner and a popup if no posts were found.
 * ### A list of related blog posts & better navigation between blog posts 
-  <img src="blog.png" class="float-right" alt="Screenshot of the blog page" />
+  <img src="blog.png" class="float-right ml-3" alt="Screenshot of the blog page" />
 
   Here's a screenshot of what the blog page looks like now (Inception!) --->
 

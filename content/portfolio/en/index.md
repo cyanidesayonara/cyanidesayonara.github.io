@@ -25,7 +25,7 @@ coders, as well as just having a competitive streak, I said count me in.
 The course, called CS50x, was given online by Harvard professor David Malan and his
 staff, and looked frankly intimidating.
 
-<img src="basketball.png" style="float:left;" alt="Screenshot of the basketball game" />
+<img src="basketball.png" class="float-left mr-3" alt="Screenshot of the basketball game" />
 
 Yet on that fateful first day, as I was staying up till the wee hours piecing
 together a silly <a href="https://scratch.mit.edu/projects/164378114/">basketball
@@ -79,7 +79,7 @@ reading up with a lot of excitement about Android development with Kotlin and Fl
   
   ### Säteilytekniikan varastolista
 
-  <img src="varastolista.png" class="float-right" alt="Screenshot of varastolista" />
+  <img src="varastolista.png" class="float-right ml-3" alt="Screenshot of varastolista" />
 
   An inventory app I created as a student for my friend's department at the Hospital
   District of Helsinki.
@@ -101,7 +101,7 @@ reading up with a lot of excitement about Android development with Kotlin and Fl
   
   ### Monitorimittari
 
-  <img src="monitorimittari.png" class="float-right" alt="Screenshot of monitorimittari" />
+  <img src="monitorimittari.png" class="float-right ml-3" alt="Screenshot of monitorimittari" />
 
   Another program I made for the guys at the Hospital District of Helsinki.
 
@@ -123,7 +123,7 @@ reading up with a lot of excitement about Android development with Kotlin and Fl
   
   ### dopepod
 
-  <img src="dopepod.png" class="float-right" alt="Screenshot of dopepod" />
+  <img src="dopepod.png" class="float-right ml-3" alt="Screenshot of dopepod" />
 
   A web app that catalogues free podcasts with the help of the iTunes API (and
   scrapes additional information from other sources).
@@ -149,7 +149,7 @@ reading up with a lot of excitement about Android development with Kotlin and Fl
   
   ### dop3pod
 
-  <img src="dop3pod.png" class="float-right" alt="Screenshot of dop3pod" />
+  <img src="dop3pod.png" class="float-right ml-3" alt="Screenshot of dop3pod" />
 
   Version 3.0 of my above-mentioned pet project. It aims to recreate similar
   functionality using more modern technologies and shall we say a more
@@ -174,7 +174,7 @@ reading up with a lot of excitement about Android development with Kotlin and Fl
   
   ### NoteOwl
 
-  <img src="noteowl.png" class="float-right" alt="Screenshot of NoteOwl" />
+  <img src="noteowl.png" class="float-right ml-3" alt="Screenshot of NoteOwl" />
 
   A web app that can be used for writing down notes and associating them with tasks on
   a calendar. It has colorful, draggable post-it notes that can be arranged and stacked
