@@ -10,9 +10,11 @@
       </a>
     </aside>
     <nav>
+      <nuxt-link id="home-button" to="/">SN</nuxt-link>
+      <span class="pipe"> | </span>
       <nuxt-link to="/portfolio/">PORTFOLIO</nuxt-link>
       <span class="pipe"> | </span>
-      <nuxt-link to="/blog">BLOG</nuxt-link>
+      <nuxt-link to="/blog/">BLOG</nuxt-link>
     </nav>
   </header>
 </template>
@@ -36,3 +38,15 @@
     },
   }
 </script>
+
+<style>
+.nuxt-link-inactive {
+  color: #2cb3ac;
+}
+#home-button {
+  padding: 4px;
+  border: 4px solid #2cb3ac;
+  border-radius: 15%;
+  text-decoration: none;
+}
+</style>

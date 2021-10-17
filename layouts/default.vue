@@ -13,7 +13,7 @@
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.7;
+  line-height: 1.75;
   max-width: 600px;
   margin: auto;
   min-height: 100vh;

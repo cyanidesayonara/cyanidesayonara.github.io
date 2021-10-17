@@ -6,17 +6,25 @@
 
 # Hi ツ
 
-<img src="photo.png" class="float-right ml-3 w-1/2 cursor-default" alt="A picture of me" />
+<img src="photo.png" class="float-right ml-3 mb-0 w-1/2 cursor-default" alt="A
+picture of me" />
 
 I'm Santtu Nykänen, a thirty-something fullstack developer from Helsinki.
 
-This website includes my <nuxt-link to="/portfolio/en">portfolio</nuxt-link> with work experience, personal projects,
-education, etc. as well as links to 
-related online profiles, such as <a href='https://www.linkedin.com/in/santtu-nykanen/'>LinkedIn</a> and 
-<a href='https://github.com/cyanidesayonara'>GitHub</a>. 
+This website includes my
+<nuxt-link to="/portfolio/en">portfolio</nuxt-link>
+with info about my
+<nuxt-link to="/portfolio/en#work-experience">work experience</nuxt-link>,
+<nuxt-link to="/portfolio/en#personal-projects">personal projects</nuxt-link>,
+<nuxt-link to="/portfolio/en#education--other-courses">education</nuxt-link>,
+etc. as well as links to online profiles, like
+<a href='https://www.linkedin.com/in/santtu-nykanen/'>LinkedIn</a>
+and <a href='https://github.com/cyanidesayonara'>GitHub</a>.
 
-To write about my projects in more depth, I've also started a <nuxt-link to="/blog">blog</nuxt-link>, where the first 
-tutorial will show you how to create and develop new features for this very project.
+In order to write about my projects in some more depth, I've also started a
+<nuxt-link to="/blog/">blog</nuxt-link>, where the
+<nuxt-link to="/blog/1">first tutorial</nuxt-link> will show you exactly how
+this very project was developed.
 
 Thanks for visiting!
 
