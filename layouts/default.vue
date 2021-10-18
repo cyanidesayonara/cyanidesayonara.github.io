@@ -116,8 +116,8 @@ main h2 {
 main h3 {
   font-weight: 600;
   font-size: 1.5em;
-  margin-top: 1.6em;
-  margin-bottom: .6em;
+  margin-top: .6em;
+  margin-bottom: .5em;
   line-height: 1.75;
 }
 .search {
