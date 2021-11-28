@@ -1,31 +1,19 @@
 <template>
   <article id="index">
-    <nuxt-content :document="post" />
+    <LanguageInput />
+    <h1>{{ $t('index.greeting') }}</h1>
+    <LandingPage />
+    <hr />
   </article>
 </template>
 
 <script>
 export default {
-  async asyncData({ $content, params, error }) {
-    const defaultLanguage = 'en'
-    const language = params.slug ?? defaultLanguage
-    const dir = `/index/${language}`
-    const [post] = await $content('index', { deep: true })
-      .where({ dir })
-      .fetch()
-    if (!post) {
-      error({
-        statusCode: 404,
-        message: 'Page could not be found',
-      })
-    }
-    return { post }
-  },
   head() {
     return {
       title: "Portfolio | Blog",
       htmlAttrs: {
-        lang: 'en',
+        lang: this.$i18n.locale,
       },
       meta: [
         {

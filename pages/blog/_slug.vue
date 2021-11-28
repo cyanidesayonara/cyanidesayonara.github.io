@@ -7,10 +7,8 @@
     <table-of-contents :toc="post.toc" />
     <nuxt-content :document="post" />
     <hr />
-    <!-- <prev-next :prev="prev" :next="next" /> -->
     <author :author="post.author"></author>
-    <!-- <more-posts :more="morePosts" /> -->
-    <img-modal v-show="showModal" @close-modal="showModal = false" />
+    <ImgModal v-show="showModal" @close-modal="closeModal" />
   </article>
 </template>
 
@@ -65,23 +63,30 @@ export default {
   mounted() {
     Prism.highlightAll()
     document.querySelectorAll(".nuxt-content img").forEach((el) => {
-      el.addEventListener('click', (e) => {
-        this.showModal = true
+      el.addEventListener("click", (e) => {
         const element = e.target.cloneNode(true)
-        element.className = 'w-full'
+        element.className = "w-full"
         const imgModal = document.getElementById("img-modal")
-        imgModal.innerHTML = ''
+        imgModal.innerHTML = ""
         imgModal.appendChild(element)
         const imgModalText = document.getElementById("img-modal-text")
         imgModalText.innerHTML = element.alt
+        document.body.className = "overflow-hidden"
+        this.showModal = true
       })
     })
   },
   methods: {
     formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      const options = { year: "numeric", month: "long", day: "numeric" }
+      return new Date(date).toLocaleDateString("en", options)
     },
+    closeModal() {
+      const imgModal = document.getElementById("img-modal")
+      imgModal.innerHTML = ""
+      document.body.className = ""
+      this.showModal = false
+    }
   },
 }
 </script>

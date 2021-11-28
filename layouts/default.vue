@@ -9,33 +9,32 @@
 </template>
 
 <style>
-#app {
-  font-family: "Titillium Web", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.75;
-  max-width: 600px;
-  margin: auto;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-}
-a, .see-more, .add-new, .search-button {
-  font-weight: bold;
-  color: #2cb3ac;
-}
 html {
   box-sizing: border-box;
+  width: 100vw;
 }
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-#app#img-modal img {
-  position: fixed;
+#app {
+  font-family: "Titillium Web", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.75;
+  max-width: 768px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  font-size: 18px;
+}
+a, .language-button, .see-more, .add-new, .search-button {
+  font-weight: bold;
+  color: #2cb3ac;
 }
 ol, ul {
   list-style: unset;
@@ -68,7 +67,7 @@ img {
 hr {
   margin: 30px 0;
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0) 0%,
@@ -127,8 +126,8 @@ main h3 {
   border: 2px solid #2cb3ac;
   padding: 5px;
 }
-.nuxt-content img {
+.nuxt-content img, #portfolio img {
   cursor: pointer;
-  margin-bottom: 1.25em;
+  margin: 0 auto 1.25em;;
 }
 </style>

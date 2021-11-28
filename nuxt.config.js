@@ -1,4 +1,5 @@
 import getRoutes from "./utils/getRoutes";
+import i18n from './plugins/i18n'
 
 export default {
   target: 'static',
@@ -35,12 +36,12 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     "@nuxtjs/sitemap",
-    'nuxt-i18n',
+    '@nuxtjs/i18n',
   ],
 
   css: ['@fortawesome/fontawesome-svg-core/styles.css'],
 
-  i18n: {},
+  i18n,
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {

@@ -1,0 +1,113 @@
+{
+  "index": {
+    "greeting": "Hi ツ",
+    "img_alt": "A picture of me",
+    "line1": "I'm Santtu Nykänen, a thirty-something fullstack developer from Helsinki.",
+    "line2":  "This website includes my",
+    "line3": "with information about my",
+    "line4": "etc. as well as links to online profiles, like",
+    "line5": "and",
+    "line6": "In order to write about my projects in some more depth, I've also started a",
+    "line7": "blog",
+    "line8": "where the",
+    "line9": "first tutorial",
+    "line10": "will show you exactly how this very project was developed.",
+    "links": {
+      "portfolio": {
+        "text": "portfolio"
+      },
+      "work_experience": {
+        "id": "work-experience",
+        "text": "work experience"
+      },
+      "personal_projects": {
+        "id": "personal-projects",
+        "text": "personal projects"
+      },
+      "education": {
+        "id": "education--other-courses",
+        "text": "education"
+      }
+    },
+    "salutation": "Thanks for visiting!"
+  },
+  "portfolio": {
+    "introduction": {
+      "title": "Introduction",
+      "line1": "I'm a career changer who started studying coding about four years ago, in the summer of 2017. I still remember the day when I first started. It was June 1st.",
+      "line2": "Having had a long and unfulfilling time at my old job, my friend got the great idea of starting an online programming course together. After reading on the news about a high demand for coders, as well as just having a competitive streak, I said count me in.",
+      "line3": "The course, called CS50x, was given online by Harvard professor David Malan and his staff, and looked frankly intimidating.",
+      "line4": "Yet on that fateful first day, as I was staying up till the wee hours piecing together a silly",
+      "line5": "with an educational, Lego-like programming language called Scratch, I'd already decided what I wanted to do next.",
+      "line6": "Even though the road to becoming employable seemed long and hard, I hadn't had this much fun while studying in a long time, if ever.",
+      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on few different projects for a total of two and a half years now.",
+      "line8": "At work I've mostly been writing Python, Java and JavaScript, in no particular order. On my own time I like to experiment and learn new stuff; most recently I've been doing a lot of catching up on Android development with Kotlin and Flutter.",
+      "basketball_game": {
+        "text": "basketball game",
+        "img_alt": "Screenshot of the basketball game"
+      }
+    },
+    "work_experience": {
+      "title": "Work Experience",
+      "solidabis": {
+        "title": "Solidabis Oy",
+        "line1": "Software development as a consultant on various client projects in both backend and frontend roles, usually a mix of both. Started in March 2019, so I have about 2½ years worth of experience."
+      }
+    },
+    "personal_projects": {
+      "title": "Personal Projects",
+      "varastolista": {
+        "line1": "An inventory app I created as a student for my friend's department at the Hospital District of Helsinki.",
+        "line2": "It's a fairly simple CRUD app that enables the user to find, add, edit, or delete spare parts on a list.",
+        "line3": "The parts list can also be imported or exported as an Excel file. A QR-code reader functionality that uses your phone camera can be used to input part numbers.",
+        "img_alt": "Screenshot of Varastolista"
+      },
+      "monitorimittari": {
+        "line1": "Another program I made for the guys at the Hospital District of Helsinki.",
+        "line2": "The hospital engineers are tasked with monitoring the luminance level of displays connected to imaging devices. This little Python-based GUI-program is for logging test results with a USB-connected LXscan spot luminance meter and saving them straight onto an .xlsx template, thus saving the engineer valuable time and effort from having to log each result down by hand.",
+        "line3": "The program is built using the PyQT5 library and the resulting Python files are rolled up into an .exe file using PyInstaller.",
+        "img_alt": "Screenshot of Monitorimittari"
+      },
+      "dopepod": {
+        "line1": "A web app that catalogues free podcasts with the help of the iTunes API (and scrapes some additional information from other sources).",
+        "line2": "A user of the app is able to search and listen to hundreds of thousands of podcasts sorted by genre and language.",
+        "line3": "A registered user is also able to subscribe to podcasts and to create a playlist.",
+        "img_alt": "Screenshot of dopepod"
+      },
+      "dop3pod": {
+        "line1": "Version 3.0 of my above-mentioned pet project. It aims to recreate similar functionality using more modern technologies and shall we say a more well-thought-out architecture.",
+        "line2": "Perhaps the most interesting addition to the project is an Android/iOS app developed with Flutter.",
+        "img_alt": "Screenshot of dop3pod"
+      },
+      "noteowl": {
+        "line1": "A web app that can be used for writing down notes and associating them with tasks on a calendar. It has colorful, draggable post-it notes that can be arranged and stacked howsoever one pleases.",
+        "line2": "It uses React on the frontend and Node & Express on the backend. The database is a cloud hosted MongoDB and the backend app itself is running on a Heroku cloud server.",
+        "img_alt": "Screenshot of NoteOwl"
+      }
+    },
+    "education": {
+      "title": "Education & Other Courses",
+      "tradenomi": {
+        "title": "Bachelor of Business Administration",
+        "line1": "Bachelor's degree in Business Information Technology at Haaga-Helia University, majoring in Software Development. Started in 2018, ongoing."
+      },
+      "fullstack_open": {
+        "line1": "A comprehensive online course on fullstack development by the University of Helsinki. Completed in 2021."
+      },
+      "elements_of_ai": {
+        "line1": "An open online course on the basics of AI by the University of Helsinki. Completed in 2019.",
+        "keywords": "Artificial Intelligence, Machine Learning"
+      },
+      "ohjelmointi": {
+        "line1": "An online course on Java development by the University of Helsinki consisting of introductory and advanced parts. Completed in 2017."
+      },
+      "cs50x": {
+        "line1": "An open online course on computer science by Harvard University. Singularly responsible for making me want to learn how to code.Completed in 2017."
+      }
+    },
+    "keywords": "Keywords:"
+  },
+  "footer": {
+    "updated": "Updated {date}"
+  }
+}

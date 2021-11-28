@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <small>Updated 2021-10-17</small>
+    <p class="text-sm">{{ $t('footer.updated', {
+      "date": "2021-11-28"}
+    ) }}</p>
     <div>
       <a href="https://www.linkedin.com/in/santtu-nykanen/">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>

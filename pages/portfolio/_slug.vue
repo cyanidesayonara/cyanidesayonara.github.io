@@ -1,62 +1,31 @@
 <template>
   <article id="portfolio">
-    <author :author="post.author"></author>
-    <h1>{{ post.title }}</h1>
-    <p>Published: {{ formatDate(post.date) }}</p>
-    <p>Last updated: {{ formatDate(post.updatedAt) }}</p>
+    <LanguageInput />
+    <h1>Portfolio</h1>
+    <Introduction />
     <hr />
-    <table-of-contents :toc="post.toc" />
-    <nuxt-content :document="post" />
-    <img-modal v-show="showModal" @close-modal="showModal = false" />
+    <WorkExperience />
+    <hr />
+    <PersonalProjects />
+    <hr />
+    <Education />
+    <hr />
+    <ImgModal v-show="showModal" @close-modal="closeModal" />
   </article>
 </template>
 
 <script>
-import { slugify } from 'transliteration'
-
-function fixIds(elements = []) {
-  const slugifyOptions = {replace: {ä: 'a', ö: 'o',}}
-  elements.forEach((el) => {
-    if (el.props && el.props.id) {
-      el.props.id = slugify(el.props.id, slugifyOptions)
-    }
-    if (el.id) {
-      el.id = slugify(el.id, slugifyOptions)
-    }
-    if (el.children) {
-      fixIds(el.children)
-    }
-  })
-}
-
 export default {
-  async asyncData({ $content, params, error }) {
-    const defaultLanguage = 'en'
-    const language = params.slug ?? defaultLanguage
-    const dir = `/portfolio/${language}`
-    const [post] = await $content('portfolio', { deep: true })
-      .where({ dir })
-      .fetch()
-    if (!post) {
-      error({
-        statusCode: 404,
-        message: 'Page could not be found',
-      })
-    }
-    fixIds(post.body.children)
-    fixIds(post.toc)
-    return { post }
-  },
   data() {
     return {
-      showModal: false,
+      showModal: false
     }
   },
   head() {
     return {
       title: "Portfolio",
       htmlAttrs: {
-        lang: 'en',
+        lang: this.$i18n.locale,
       },
       meta: [
         {
@@ -68,24 +37,27 @@ export default {
     }
   },
   mounted() {
-    document.querySelectorAll(".nuxt-content img").forEach((el) => {
-      el.addEventListener('click', (e) => {
-        this.showModal = true
+    document.querySelectorAll("#portfolio img").forEach((el) => {
+      el.addEventListener("click", (e) => {
         const element = e.target.cloneNode(true)
-        element.className = 'w-full'
+        element.className = "w-full"
         const imgModal = document.getElementById("img-modal")
-        imgModal.innerHTML = ''
+        imgModal.innerHTML = ""
         imgModal.appendChild(element)
         const imgModalText = document.getElementById("img-modal-text")
         imgModalText.innerHTML = element.alt
+        document.body.className = "overflow-hidden"
+        this.showModal = true
       })
     })
   },
   methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
-    },
+    closeModal() {
+      const imgModal = document.getElementById("img-modal")
+      imgModal.innerHTML = ""
+      document.body.className = ""
+      this.showModal = false
+    }
   },
 }
 </script>
