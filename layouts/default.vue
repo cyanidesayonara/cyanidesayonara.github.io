@@ -8,6 +8,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  watch: {
+    $route() {
+      document.body.className = ""
+    }
+  }
+}
+</script>
+
 <style>
 html {
   box-sizing: border-box;
@@ -54,7 +64,7 @@ footer {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: baseline;
 }
 aside {
   float: right;

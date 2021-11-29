@@ -108,6 +108,6 @@
     "keywords": "Avainsanat:"
   },
   "footer": {
-    "updated": "Päivitetty {date}"
+    "updated": "Päivitetty: {date}"
   }
 }

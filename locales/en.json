@@ -108,6 +108,6 @@
     "keywords": "Keywords:"
   },
   "footer": {
-    "updated": "Updated {date}"
+    "updated": "Updated: {date}"
   }
 }

@@ -1,9 +1,15 @@
 <template>
   <footer>
     <p class="text-sm">{{ $t('footer.updated', {
-      "date": "2021-11-28"}
+      "date": "2021-11-29"}
     ) }}</p>
-    <div>
+    <p class="hidden text-sm">
+      Commit:
+      <a :href="`https://github.com/cyanidesayonara/cyanidesayonara.github.io/commit/${commitSha}`">
+        {{ commitSha }}
+      </a>
+    </p>
+    <div class="whitespace-nowrap">
       <a href="https://www.linkedin.com/in/santtu-nykanen/">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>
       </a>
@@ -14,3 +20,13 @@
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      commitSha: process.env.NUXT_ENV_CURRENT_GIT_SHA
+    };
+  }
+}
+</script>
