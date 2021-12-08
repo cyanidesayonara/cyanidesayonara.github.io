@@ -40,7 +40,7 @@
       "line4": "Yet on that fateful first day, as I was staying up till the wee hours piecing together a silly",
       "line5": "with an educational, Lego-like programming language called Scratch, I'd already decided what I wanted to do next.",
       "line6": "Even though the road to becoming employable seemed long and hard, I hadn't had this much fun while studying in a long time, if ever.",
-      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on few different projects for a total of two and a half years now.",
+      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on a few different projects for a little under three years now.",
       "line8": "At work I've mostly been writing Python, Java and JavaScript, in no particular order. On my own time I like to experiment and learn new stuff; most recently I've been doing a lot of catching up on Android development with Kotlin and Flutter.",
       "basketball_game": {
         "text": "basketball game",
@@ -51,7 +51,7 @@
       "title": "Work Experience",
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Software development as a consultant on various client projects in both backend and frontend roles, usually a mix of both. Started in March 2019, so I have about 2½ years worth of experience."
+        "line1": "Software development as a consultant on various client projects in both backend and frontend roles, usually a mix of both. Started in March 2019, so I have close to three years worth of experience now."
       }
     },
     "personal_projects": {
@@ -102,7 +102,7 @@
         "line1": "An online course on Java development by the University of Helsinki consisting of introductory and advanced parts. Completed in 2017."
       },
       "cs50x": {
-        "line1": "An open online course on computer science by Harvard University. Singularly responsible for making me want to learn how to code.Completed in 2017."
+        "line1": "An open online course on computer science by Harvard University. Singularly responsible for making me want to learn how to code. Completed in 2017."
       }
     },
     "keywords": "Keywords:"
