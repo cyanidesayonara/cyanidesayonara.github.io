@@ -59,6 +59,12 @@ export default {
         ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
       ],
     },
+    extend(config) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: "frontmatter-markdown-loader",
+      });
+    },
   },
 
   // Sitemap

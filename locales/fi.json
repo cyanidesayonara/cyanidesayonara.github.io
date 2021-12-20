@@ -107,6 +107,9 @@
     },
     "keywords": "Avainsanat:"
   },
+  "table_of_contents": "Sisällysluettelo",
+  "page_not_found": "Sivua ei löytynyt",
+  "an_error_occurred": "Virhe tapahtui",
   "footer": {
     "updated": "Päivitetty: {date}"
   }

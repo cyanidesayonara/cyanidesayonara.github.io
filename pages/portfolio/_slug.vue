@@ -1,21 +1,29 @@
 <template>
-  <article id="portfolio">
-    <LanguageInput />
-    <h1>Portfolio</h1>
-    <Introduction />
-    <hr />
-    <WorkExperience />
-    <hr />
-    <PersonalProjects />
-    <hr />
-    <Education />
-    <hr />
-    <ImgModal v-show="showModal" @close-modal="closeModal" />
-  </article>
+    <article id="portfolio" class="post-content">
+      <LanguageInput />
+      <h1>Portfolio</h1>
+      <table-of-contents :toc="post.toc" />
+      <nuxt-content :document="post" />
+      <hr />
+      <ImgModal v-show="showModal" @close-modal="closeModal" />
+    </article>
 </template>
 
 <script>
 export default {
+  async asyncData({ $content, i18n, error }) {
+    try {
+      const [post] = await $content({ deep: true })
+        .where({ dir: '/portfolio', language: i18n.locale })
+        .fetch()
+      return { post }
+    } catch (err) {
+      error({
+        statusCode: 404,
+        message: 'Page could not be found',
+      })
+    }
+  },
   data() {
     return {
       showModal: false
