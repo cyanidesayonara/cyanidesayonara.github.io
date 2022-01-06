@@ -42,7 +42,7 @@ import moment from 'moment'
 export default {
   key: (to) => to.fullPath,
   async asyncData({ $content, route }) {
-    const query = route.query.q
+    const query = route.query.q.toString()
     const posts = query
       ? await $content('blog', { deep: true })
         .only(['title', 'createdAt', 'description', 'image', 'path', 'date'])
@@ -102,7 +102,6 @@ export default {
           .skip(5 * this.page)
           .limit(5)
           .fetch()
-      // if (!posts.length) console.log("no more posts")
       posts.forEach((post) => {
         this.posts.push(post)
       })
