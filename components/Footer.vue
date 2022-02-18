@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p class="text-sm">{{ $t('footer.updated', {
-      "date": "2021-12-20"}
+      "date": "2022-02-18"}
     ) }}</p>
     <p class="hidden text-sm">
       Commit:
