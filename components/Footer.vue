@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      commitSha: process.env.NUXT_ENV_CURRENT_GIT_SHA
+      commitSha: process.env.NUXT_ENV_CURRENT_GIT_SHA ? process.env.NUXT_ENV_CURRENT_GIT_SHA.substring(0,7) : ''
     };
   }
 }

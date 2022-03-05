@@ -25,7 +25,7 @@ jobs:
 
       - name: Generate
         env:
-          NUXT_ENV_CURRENT_GIT_SHA: ${GITHUB_SHA::6}
+          NUXT_ENV_CURRENT_GIT_SHA: ${{ github.sha }}
         run: yarn run generate
 
       - name: Deploy
