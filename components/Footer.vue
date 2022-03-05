@@ -1,9 +1,9 @@
 <template>
   <footer>
     <p class="text-sm">{{ $t('footer.updated', {
-      "date": "2022-02-18"}
+      "date": "2022-03-05"}
     ) }}</p>
-    <p class="hidden text-sm">
+    <p class="text-sm">
       Commit:
       <a :href="`https://github.com/cyanidesayonara/cyanidesayonara.github.io/commit/${commitSha}`">
         {{ commitSha }}
@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      commitSha: process.env.NUXT_ENV_CURRENT_GIT_SHA
+      commitSha: process.env.NUXT_ENV_CURRENT_GIT_SHA ? process.env.NUXT_ENV_CURRENT_GIT_SHA.substring(0,7) : ''
     };
   }
 }
