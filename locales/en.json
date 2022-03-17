@@ -40,7 +40,7 @@
       "line4": "Yet on that fateful first day, as I was staying up till the wee hours piecing together a silly",
       "line5": "with an educational, Lego-like programming language called Scratch, I'd already decided what I wanted to do next.",
       "line6": "Even though the road to becoming employable seemed long and hard, I hadn't had this much fun while studying in a long time, if ever.",
-      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on a few different projects for a little under three years now.",
+      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on a few different projects for about three years now.",
       "line8": "At work I've mostly been writing Python, Java and JavaScript, in no particular order. On my own time I like to experiment and learn new stuff; most recently I've been doing a lot of catching up on Android development with Kotlin and Flutter.",
       "basketball_game": {
         "text": "basketball game",
@@ -51,7 +51,7 @@
       "title": "Work Experience",
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Software development as a consultant on various client projects in both backend and frontend roles, usually a mix of both. Started in March 2019, so I have close to three years worth of experience now."
+        "line1": "Software development as a consultant on various client projects in both backend and frontend roles, usually a mix of both. Started in March 2019, so I have about three years worth of experience now."
       }
     },
     "personal_projects": {
@@ -107,8 +107,9 @@
     },
     "keywords": "Keywords:"
   },
-  "table_of_contents": "Table of Contents",
   "footer": {
     "updated": "Updated: {date}"
-  }
+  },
+  "page_not_found": "Page not found",
+  "an_error_occurred": "An error occurred"
 }
