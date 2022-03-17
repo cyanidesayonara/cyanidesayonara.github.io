@@ -3,7 +3,7 @@
     <p class="text-sm">{{ $t('footer.updated', {
       "date": "2022-03-05"}
     ) }}</p>
-    <p class="text-sm">
+    <p v-if="commitSha.length" class="text-sm">
       Commit:
       <a :href="`https://github.com/cyanidesayonara/cyanidesayonara.github.io/commit/${commitSha}`">
         {{ commitSha }}
