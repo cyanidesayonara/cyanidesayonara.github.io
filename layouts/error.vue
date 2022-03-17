@@ -6,24 +6,24 @@
 </template>
 
 <script>
-  export default {
-    layout: 'error',
-    // eslint-disable-next-line vue/require-prop-types
-    props: ['error'],
-    head() {
-      return {
-        title: "Error",
-        htmlAttrs: {
-          lang: this.$i18n.locale,
+export default {
+  layout: 'error',
+  // eslint-disable-next-line vue/require-prop-types
+  props: ['error'],
+  head() {
+    return {
+      title: "Error",
+      htmlAttrs: {
+        lang: this.$i18n.locale,
+      },
+      meta: [
+        {
+          hid: "Error",
+          name: "Error",
+          content: "Error",
         },
-        meta: [
-          {
-            hid: "Error",
-            name: "Error",
-            content: "Error",
-          },
-        ],
-      }
-    },
-  }
+      ],
+    }
+  },
+}
 </script>

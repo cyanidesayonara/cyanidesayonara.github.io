@@ -23,6 +23,9 @@ html {
   box-sizing: border-box;
   width: 100vw;
 }
+body {
+  overflow-x: hidden;
+}
 *,
 *:before,
 *:after {

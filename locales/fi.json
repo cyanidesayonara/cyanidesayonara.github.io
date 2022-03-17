@@ -40,7 +40,7 @@
       "line4": "Mutta kuinka ollakaan tuona kohtalokkaana päivänä, valvottuani pikkutunneille kasatessani hölmöä",
       "line5": "opetuskäyttöön tarkoitetulla Legomaisella ohjelmointikielellä nimeltä Scratch, olin jo päättänyt mitä haluan tehdä seuraavaksi.",
       "line6": "Vaikka näyttikin selvältä, että tie ammattilaiseksi on vielä pitkä ja raskas, en ollut nauttinut opiskelusta näin paljoa pitkään aikaan, jos koskaan.",
-      "line7": "Jotenka, ahmittuani tuon kurssin läpi ja opiskeltuani muita lähteitä käyttäen vajaat pari vuotta, löysin viimein ensimmäisen koodaustyöni keväällä 2019. Työskentelen konsulttina talossa, jossa olen päässyt kehittämään erilaisia projekteja nyt vajaan kolmen vuoden ajan.",
+      "line7": "Jotenka, ahmittuani tuon kurssin läpi ja opiskeltuani muita lähteitä käyttäen vajaat pari vuotta, löysin viimein ensimmäisen koodaustyöni keväällä 2019. Työskentelen konsulttina talossa, jossa olen päässyt kehittämään erilaisia projekteja nyt noin kolmen vuoden ajan.",
       "line8": "Töissä olen koodaillut enimmäkseen Pythonia, Javaa ja JavaScriptia, ei missään erityisessä järjestyksessä. Omalla ajallani tykkään kokeilla ja oppia uusia asioita; viime aikoina olen ottanut Android-kehitystä haltuun Kotlinilla ja Flutterilla.",
       "basketball_game": {
         "text": "koripallopeliä",
@@ -51,19 +51,19 @@
       "title": "Työkokemus",
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Softakehitystä konsulttina erinäisissä asiakasprojekteissa sekä backend- että frontend-rooleissa, yleensä vähän kutakin. Alkanut maaliskuussa 2019, eli kokemusta on nyt vajaan kolmen vuoden ajalta."
+        "line1": "Softakehitystä konsulttina erinäisissä asiakasprojekteissa sekä backend- että frontend-rooleissa, yleensä vähän kutakin. Alkanut maaliskuussa 2019, eli kokemusta on nyt noin kolmen vuoden ajalta."
       }
     },
     "personal_projects": {
       "title": "Omia projekteja",
       "varastolista": {
-        "line1": "Varastolista, jonka tein opiskeluaikoina HUS:n säteilytekniikan osaston jampoille.",
+        "line1": "Varastolista-äppi, jonka tein opiskeluprojektina Meilahden sairaalan säteilytekniikan osastolle.",
         "line2": "Kyseessä on melko simppeli CRUD-appi, jolla käyttäjä voi hakea, lisätä, muokata, tai poistaa varaosia listalta.",
         "line3": "Osalistan voi myös importata ja exportata excelinä. Osanumeroiden lukemisen avuksi on QR-koodinlukija, joka käyttää apunaan puhelimen kameraa.",
         "img_alt": "Screenshot Varastolistasta"
       },
       "monitorimittari": {
-        "line1": "Toinen HUS:n säteilytekniikalle tehty pieni Python-ohjelma.",
+        "line1": "Toinen Meilahden sairaalan säteilytekniikan jampoille tehty pieni Python-ohjelma.",
         "line2": "Sairaalainsinöörien tehtävänä on monitoroida kuvantamislaitteiden valovoimaisuutta kirjaamalla mittaustuloksia excel-tiedostoon. Tällä pikku Python-ohjelmalla voidaan kirjata USB-kytketyllä LXscan-luminanssimittarilla mitattuja testituloksia suoraan pohjana käytettävään .xlsx-tiedostoon, säästäen näin insinöörin arvokasta aikaa ja vaivaa tulosten käsinkirjaamiselta.",
         "line3": "Ohjelman ulkoasu on rakennettu käyttäen PyQt5-kirjastoa ja syntyneet Python-tiedostot on pyöräytetty yhdeksi .exe-tiedostoksi PyInstallerilla.",
         "img_alt": "Screenshot Monitorimittarista"
@@ -107,10 +107,9 @@
     },
     "keywords": "Avainsanat:"
   },
-  "table_of_contents": "Sisällysluettelo",
-  "page_not_found": "Sivua ei löytynyt",
-  "an_error_occurred": "Virhe tapahtui",
   "footer": {
     "updated": "Päivitetty: {date}"
-  }
+  },
+  "page_not_found": "Sivua ei löytynyt",
+  "an_error_occurred": "Virhe tapahtui"
 }
