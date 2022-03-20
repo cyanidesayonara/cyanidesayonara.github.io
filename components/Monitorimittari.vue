@@ -6,7 +6,7 @@
       </a>
     </aside>
     <h3>Monitorimittari</h3>
-    <img src="monitorimittari.png" :alt="$t('portfolio.personal_projects.monitorimittari.img_alt')"/>
+    <v-img src="monitorimittari.png" :alt="$t('portfolio.personal_projects.monitorimittari.img_alt')"/>
     <p>{{ $t('portfolio.personal_projects.monitorimittari.line1') }}</p>
     <p>{{ $t('portfolio.personal_projects.monitorimittari.line2') }}</p>
     <p>{{ $t('portfolio.personal_projects.monitorimittari.line3') }}</p>

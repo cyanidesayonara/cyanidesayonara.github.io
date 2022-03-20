@@ -87,7 +87,7 @@ export default {
   watchQuery: ['q'],
   methods: {
     async getMorePosts() {
-      const query = this.$route.query.q
+      const query = this.$route.query.q.toString()
       const posts = query
         ? await this.$content('blog', { deep: true })
           .only(['title', 'createdAt', 'description', 'image', 'path'])

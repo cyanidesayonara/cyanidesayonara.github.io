@@ -22,7 +22,7 @@ If that means nothing to you, don't worry: We will start with an overview of
 the terms mentioned in the previous paragraph as well as an explanation of 
 the general purpose of the blog itself.
 
-<img src="index.png" alt="Screenshot of the landing page" />
+<v-img src="index.png" alt="Screenshot of the landing page"></v-img>
 
 Here's a screenshot of what the landing page looks like now. It has 
 navigation links to portfolio/blog, a language selector and a cute photo of me.
@@ -41,7 +41,7 @@ of my head:
 
 ### A button that allows the user to print my resume as a PDF file
 
-<img src="portfolio.png" alt="Screenshot of the portfolio page" />
+<v-img src="portfolio.png" alt="Screenshot of the portfolio page"></v-img>
 
 This is what the portfolio page looks like now.
 
@@ -56,7 +56,7 @@ I would like to see a button that says "Print PDF".
 
 ### Improving the search page
 
-<img src="search.png" alt="Screenshot of the search page" />
+<v-img src="search.png" alt="Screenshot of the search page" /></v-img>
 
 This is what the search page looks like now.
 
@@ -75,7 +75,7 @@ with a spinner and a popup if no posts were found.
 
 ### A list of related blog posts & better navigation between blog
 
-<img src="blog.png" alt="Screenshot of the blog page" />
+<v-img src="blog.png" alt="Screenshot of the blog page"></v-img>
 
 Here's a screenshot of what the blog page looks like now.
 

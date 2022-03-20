@@ -22,7 +22,7 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     { src: '~/plugins/ga.js', mode: 'client' },
-    '~/plugins/fontawesome.js',
+    '~/plugins/fontawesome.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -36,7 +36,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     "@nuxtjs/sitemap",
-    '@nuxtjs/i18n',
+    '@nuxtjs/i18n'
   ],
 
   css: ['@fortawesome/fontawesome-svg-core/styles.css'],
@@ -47,9 +47,9 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: false,
-      },
-    },
+        theme: false
+      }
+    }
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
@@ -57,8 +57,14 @@ export default {
     babel: {
       plugins: [
         ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
-      ],
+      ]
     },
+    extend(config) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: "frontmatter-markdown-loader"
+      });
+    }
   },
 
   // Sitemap
@@ -66,6 +72,6 @@ export default {
     hostname: 'https://santtu.info',
     routes() {
       return getRoutes();
-    },
-  },
+    }
+  }
 }

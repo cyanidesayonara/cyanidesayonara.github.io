@@ -3,7 +3,7 @@
     <h2>{{ $t('portfolio.introduction.title') }}</h2>
     <p>{{ $t('portfolio.introduction.line1') }}</p>
     <p>{{ $t('portfolio.introduction.line2') }}</p>
-    <p>{{ $t('portfolio.introduction.line3') }}</p><img src="basketball.png" class="float-left mr-3 mb-0 w-1/2"
+    <p>{{ $t('portfolio.introduction.line3') }}</p><v-img src="basketball.png" class="float-left mr-3 mb-0 w-1/2"
                                                         :alt="$t('portfolio.introduction.basketball_game.img_alt')"/>
     <p>
       {{ $t('portfolio.introduction.line4') }}

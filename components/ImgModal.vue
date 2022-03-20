@@ -1,6 +1,6 @@
 <template>
-  <div class="modal-overlay" @click="$emit('close-modal')">
-    <button class="close" @click="$emit('close-modal')">
+  <div id="modal-overlay" style="display:none;" @click="closeModal">
+    <button class="close" @click="closeModal">
       X
     </button>
     <div id="img-modal" class="modal">
@@ -10,8 +10,22 @@
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    closeModal() {
+      const overlay = document.getElementById("modal-overlay")
+      overlay.style.display = "none"
+      const imgModal = document.getElementById("img-modal")
+      imgModal.innerHTML = ""
+      document.body.className = ""
+    }
+  },
+}
+</script>
+
 <style scoped>
-.modal-overlay {
+#modal-overlay {
   position: fixed;
   top: 0;
   bottom: 0;

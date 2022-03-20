@@ -10,7 +10,7 @@
       </a>
     </aside>
     <h3>Varastolista</h3>
-    <img src="varastolista.png" :alt="$t('portfolio.personal_projects.varastolista.img_alt')"/>
+    <v-img src="varastolista.png" :alt="$t('portfolio.personal_projects.varastolista.img_alt')"/>
     <p>{{ $t('portfolio.personal_projects.varastolista.line1') }}</p>
     <p>{{ $t('portfolio.personal_projects.varastolista.line2') }}</p>
     <p>{{ $t('portfolio.personal_projects.varastolista.line3') }}</p>

@@ -20,6 +20,7 @@ https://nuxtjs.org/docs/2.x/concepts/views#error-page
 https://blog.openreplay.com/building-your-own-blog-with-nuxt-content-and-tailwind  
 https://github.com/nuxt/content/issues/702  
 https://dev.to/davidemaye/how-to-create-a-modal-component-in-nuxt-38g1  
+https://www.fabiofranchino.com/blog/how-to-create-a-nuxt-based-blog-markdown-driven-from-scratch/  
 
 ## Build Setup
 

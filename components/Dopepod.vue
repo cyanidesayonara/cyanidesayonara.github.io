@@ -6,7 +6,7 @@
       </a>
     </aside>
     <h3>dopepod</h3>
-    <img src="dopepod.png" :alt="$t('portfolio.personal_projects.dopepod.img_alt')"/>
+    <v-img src="dopepod.png" :alt="$t('portfolio.personal_projects.dopepod.img_alt')"/>
     <p>{{ $t('portfolio.personal_projects.dopepod.line1') }}</p>
     <p>{{ $t('portfolio.personal_projects.dopepod.line2') }}</p>
     <p>{{ $t('portfolio.personal_projects.dopepod.line3') }}</p>

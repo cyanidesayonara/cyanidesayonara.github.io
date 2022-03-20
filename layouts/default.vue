@@ -5,6 +5,7 @@
       <Nuxt />
     </main>
     <Footer />
+    <ImgModal />
   </div>
 </template>
 
@@ -93,7 +94,7 @@ hr {
 a {
   text-decoration: none;
 }
-a:hover {
+a:hover, .language-button:hover {
   text-decoration: underline;
 }
 .nuxt-link-active {
@@ -141,6 +142,6 @@ main h3 {
 }
 .nuxt-content img, #portfolio img {
   cursor: pointer;
-  margin: 0 auto 1.25em;;
+  margin: 0 auto 1.25em;
 }
 </style>

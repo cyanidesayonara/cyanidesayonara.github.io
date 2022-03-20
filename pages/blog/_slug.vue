@@ -8,7 +8,6 @@
     <nuxt-content :document="post" />
     <hr />
     <author :author="post.author"></author>
-    <ImgModal v-show="showModal" @close-modal="closeModal" />
   </article>
 </template>
 
@@ -40,11 +39,6 @@ export default {
       })
     }
   },
-  data() {
-    return {
-      showModal: false,
-    }
-  },
   head() {
     return {
       title: "Blog - " + this.post.title,
@@ -62,31 +56,12 @@ export default {
   },
   mounted() {
     Prism.highlightAll()
-    document.querySelectorAll(".nuxt-content img").forEach((el) => {
-      el.addEventListener("click", (e) => {
-        const element = e.target.cloneNode(true)
-        element.className = "w-full"
-        const imgModal = document.getElementById("img-modal")
-        imgModal.innerHTML = ""
-        imgModal.appendChild(element)
-        const imgModalText = document.getElementById("img-modal-text")
-        imgModalText.innerHTML = element.alt
-        document.body.className = "overflow-hidden"
-        this.showModal = true
-      })
-    })
   },
   methods: {
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" }
       return new Date(date).toLocaleDateString("en", options)
     },
-    closeModal() {
-      const imgModal = document.getElementById("img-modal")
-      imgModal.innerHTML = ""
-      document.body.className = ""
-      this.showModal = false
-    }
   },
 }
 </script>
