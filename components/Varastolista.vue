@@ -1,11 +1,11 @@
 <template>
   <div>
     <aside>
-      <a href="https://varastolista.herokuapp.com/">
+      <a href="https://varastolista.herokuapp.com/" target="_blank">
         <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
       </a>
       <span class="pipe"> | </span>
-      <a href="https://github.com/cyanidesayonara/varastolista">
+      <a href="https://github.com/cyanidesayonara/varastolista" target="_blank">
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
     </aside>
@@ -14,6 +14,9 @@
     <p>{{ $t('portfolio.personal_projects.varastolista.line1') }}</p>
     <p>{{ $t('portfolio.personal_projects.varastolista.line2') }}</p>
     <p>{{ $t('portfolio.personal_projects.varastolista.line3') }}</p>
+    <p>{{ $t('portfolio.completed', {
+      completed: '2018'
+    }) }}</p>
     <p>
       {{ $t('portfolio.keywords') }}
       <em>Python, Django, JavaScript, jQuery, PostgreSQL, Instascan, Heroku</em>

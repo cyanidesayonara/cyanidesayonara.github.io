@@ -10,9 +10,9 @@
       <nuxt-link :to="`/portfolio#` + $t('index.links.personal_projects.id')">{{ $t('index.links.personal_projects.text') }}</nuxt-link>,
       <nuxt-link :to="`/portfolio#` + $t('index.links.education.id')">{{ $t('index.links.education.text') }}</nuxt-link>,
       {{ $t('index.line4') }}
-      <a href='https://www.linkedin.com/in/santtu-nykanen/'>LinkedIn</a>
+      <a href='https://www.linkedin.com/in/santtu-nykanen/' target="_blank">LinkedIn</a>
       {{ $t('index.line5') }}
-      <a href='https://github.com/cyanidesayonara'>GitHub</a>.
+      <a href='https://github.com/cyanidesayonara' target="_blank">GitHub</a>.
     </p>
     <p>
       {{ $t('index.line6') }}

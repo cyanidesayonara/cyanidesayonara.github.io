@@ -1,7 +1,7 @@
 <template>
   <div>
     <aside>
-      <a href="https://github.com/cyanidesayonara/monitorimittari">
+      <a href="https://github.com/cyanidesayonara/monitorimittari" target="_blank">
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
     </aside>
@@ -10,6 +10,9 @@
     <p>{{ $t('portfolio.personal_projects.monitorimittari.line1') }}</p>
     <p>{{ $t('portfolio.personal_projects.monitorimittari.line2') }}</p>
     <p>{{ $t('portfolio.personal_projects.monitorimittari.line3') }}</p>
+    <p>{{ $t('portfolio.completed', {
+      completed: '2019'
+    }) }}</p>
     <p>
       {{ $t('portfolio.keywords') }}
       <em>Python, PyQt5, PyInstaller</em>

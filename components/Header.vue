@@ -1,11 +1,11 @@
 <template>
   <header>
     <aside aria-label="Links">
-      <a href="https://www.linkedin.com/in/santtu-nykanen/">
+      <a href="https://www.linkedin.com/in/santtu-nykanen/" target="_blank">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>
       </a>
       <span class="pipe"> | </span>
-      <a href="https://github.com/cyanidesayonara">
+      <a href="https://github.com/cyanidesayonara" target="_blank">
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
     </aside>
@@ -44,5 +44,11 @@
   border: 4px solid #2cb3ac;
   border-radius: 15%;
   text-decoration: none;
+  color: black;
+}
+
+#home-button.nuxt-link-exact-active {
+  color: white;
+  background-color: #2cb3ac;
 }
 </style>

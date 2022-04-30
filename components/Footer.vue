@@ -1,20 +1,20 @@
 <template>
   <footer>
     <p class="text-sm">{{ $t('footer.updated', {
-      "date": "2022-03-20"}
+      "date": "2022-04-30"}
     ) }}</p>
     <p v-if="commitSha.length" class="text-sm">
       Commit:
-      <a :href="`https://github.com/cyanidesayonara/cyanidesayonara.github.io/commit/${commitSha}`">
+      <a :href="`https://github.com/cyanidesayonara/cyanidesayonara.github.io/commit/${commitSha}`" target="_blank">
         {{ commitSha }}
       </a>
     </p>
     <div class="whitespace-nowrap">
-      <a href="https://www.linkedin.com/in/santtu-nykanen/">
+      <a href="https://www.linkedin.com/in/santtu-nykanen/" target="_blank">
         <font-awesome-icon :icon="['fab', 'linkedin']"/>
       </a>
       <span class="pipe"> | </span>
-      <a href="https://github.com/cyanidesayonara">
+      <a href="https://github.com/cyanidesayonara" target="_blank">
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
     </div>

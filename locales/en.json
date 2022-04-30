@@ -49,9 +49,13 @@
     },
     "work_experience": {
       "title": "Work Experience",
+      "gofore": {
+        "title": "Gofore Oyj",
+        "line1": "Fullstack software development as a consultant on various client projects."
+      },
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Software development as a consultant on various client projects in both backend and frontend roles, usually a mix of both. Started in March 2019, so I have about three years worth of experience now."
+        "line1": "Fullstack software development as a consultant on various client projects."
       }
     },
     "personal_projects": {
@@ -83,28 +87,36 @@
         "line1": "A web app that can be used for writing down notes and associating them with tasks on a calendar. It has colorful, draggable post-it notes that can be arranged and stacked howsoever one pleases.",
         "line2": "It uses React on the frontend and Node & Express on the backend. The database is a cloud hosted MongoDB and the backend app itself is running on a Heroku cloud server.",
         "img_alt": "Screenshot of NoteOwl"
+      },
+      "borealis": {
+        "line1": "Borealis is an LED display visualizer software for a 64x64 pixel LED matrix. It can be used to display images, animations, date/time etc. on the screen.",
+        "line2": "It's a fork of the Aurora project",
+        "line3": "by Pixelmatix, which runs on a Teensy 3.2 microcontroller, quadrupling the original project's display size of 32x32 pixels and adding other new features.",
+        "img_alt": "Screenshot of Borealis"
       }
     },
     "education": {
       "title": "Education & Other Courses",
       "tradenomi": {
         "title": "Bachelor of Business Administration",
-        "line1": "Bachelor's degree in Business Information Technology at Haaga-Helia University, majoring in Software Development. Started in 2018, ongoing."
+        "line1": "Bachelor's degree in Business Information Technology at Haaga-Helia University, majoring in Software Development."
       },
       "fullstack_open": {
-        "line1": "A comprehensive online course on fullstack development by the University of Helsinki. Completed in 2021."
+        "line1": "A comprehensive online course on fullstack development by the University of Helsinki."
       },
       "elements_of_ai": {
-        "line1": "An open online course on the basics of AI by the University of Helsinki. Completed in 2019.",
+        "line1": "An open online course on the basics of AI by the University of Helsinki.",
         "keywords": "Artificial Intelligence, Machine Learning"
       },
       "ohjelmointi": {
-        "line1": "An online course on Java development by the University of Helsinki consisting of introductory and advanced parts. Completed in 2017."
+        "line1": "An online course on Java development by the University of Helsinki consisting of introductory and advanced parts."
       },
       "cs50x": {
-        "line1": "An open online course on computer science by Harvard University. Singularly responsible for making me want to learn how to code. Completed in 2017."
+        "line1": "An open online course on computer science by Harvard University. Singularly responsible for making me want to learn how to code."
       }
     },
+    "duration": "Duration: {duration}",
+    "completed": "Completed: {completed}",
     "keywords": "Keywords:"
   },
   "footer": {

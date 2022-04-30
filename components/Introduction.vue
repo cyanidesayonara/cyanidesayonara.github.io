@@ -7,7 +7,7 @@
                                                         :alt="$t('portfolio.introduction.basketball_game.img_alt')"/>
     <p>
       {{ $t('portfolio.introduction.line4') }}
-      <a href="https://scratch.mit.edu/projects/164378114/">{{ $t('portfolio.introduction.basketball_game.text') }}</a>
+      <a href="https://scratch.mit.edu/projects/164378114/" target="_blank">{{ $t('portfolio.introduction.basketball_game.text') }}</a>
       {{ $t('portfolio.introduction.line5') }}
     </p>
     <p>{{ $t('portfolio.introduction.line6') }}</p>

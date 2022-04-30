@@ -49,9 +49,13 @@
     },
     "work_experience": {
       "title": "Työkokemus",
+      "gofore": {
+        "title": "Gofore Oyj",
+        "line1": "Fullstack-softakehitystä konsulttina erinäisissä asiakasprojekteissa."
+      },
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Softakehitystä konsulttina erinäisissä asiakasprojekteissa sekä backend- että frontend-rooleissa, yleensä vähän kutakin. Alkanut maaliskuussa 2019, eli kokemusta on nyt noin kolmen vuoden ajalta."
+        "line1": "Fullstack-softakehitystä konsulttina erinäisissä asiakasprojekteissa."
       }
     },
     "personal_projects": {
@@ -83,28 +87,36 @@
         "line1": "Web appi, jolla voi kirjata ylös muistiinpanoja sekä assosioida niitä kalenterista löytyvien tehtävien mukaan. Käytössä on värikkäitä, raahattavia post-it -lappuja, joita käyttäjä voi järjestää mielensä mukaan.",
         "line2": "Frontendissä käytössä on React ja backendissä parivaljakko Node & Express. Tietokanta on pilvi-hostattu MongoDB ja itse backend-appi pyörii Herokun pilviserverillä.",
         "img_alt": "Screenshot NoteOwlista"
+      },
+      "borealis": {
+        "line1": "Borealis on LED-visualisointiohjelma 64x64 pikselin LED-matriisinäytölle. Sillä voidaan esittää näytöllä kuvia, animaatioita, päivämäärä/aika jne.",
+        "line2": "Se on forkattu Pixelmatixin Aurora-projektista",
+        "line3": ", joka pyörii Teensy 3.2 -mikrokontrollerissa, nelinkertaistaen alkuperäisen projektin 32x32 pikselin näytön ja lisäten muita uusia ominaisuuksia.",
+        "img_alt": "Screenshot Borealiksesta"
       }
     },
     "education": {
       "title": "Koulutus & muita kursseja",
       "tradenomi": {
         "title": "Tietojenkäsittelyn koulutus, tradenomi",
-        "line1": "Tradenomin tutkinto Haaga-Helia AMK:ssa, suuntautumisalana ohjelmistokehitys. Aloitettu 2018, kesken."
+        "line1": "Tradenomin tutkinto Haaga-Helia AMK:ssa, pääasiallisena suuntautumisalana ohjelmistokehitys."
       },
       "fullstack_open": {
-        "line1": "Helsingin yliopiston varsin kattava avoin fullstack-ohjelmoinnin verkkokurssi. Suoritettu 2021."
+        "line1": "Helsingin yliopiston varsin kattava avoin fullstack-ohjelmoinnin verkkokurssi."
       },
       "elements_of_ai": {
-        "line1": "Helsingin yliopiston tarjoama avoin verkkokurssi tekoälyn perusteista. Suoritettu 2019.",
+        "line1": "Helsingin yliopiston tarjoama avoin verkkokurssi tekoälyn perusteista.",
         "keywords": "tekoäly, koneoppiminen"
       },
       "ohjelmointi": {
-        "line1": "Helsingin yliopiston laaja, kaksiosainen avoin Java-ohjelmoinnin verkkokurssi. Suoritettu 2017."
+        "line1": "Helsingin yliopiston laaja, kaksiosainen avoin Java-ohjelmoinnin verkkokurssi."
       },
       "cs50x": {
-        "line1": "Harvardin avoin tietojenkäsittelytieteen verkkokurssi. Tämä kurssi sai alun perin innostumaan koodauksen opiskelusta. Suoritettu 2017."
+        "line1": "Harvardin avoin tietojenkäsittelytieteen verkkokurssi. Tämä kurssi sai alun perin innostumaan koodauksen opiskelusta."
       }
     },
+    "duration": "Kesto: {duration}",
+    "completed": "Valmistunut: {completed}",
     "keywords": "Avainsanat:"
   },
   "footer": {

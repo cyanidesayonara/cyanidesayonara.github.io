@@ -10,5 +10,7 @@
     <Dop3pod />
     <hr />
     <NoteOwl />
+    <hr />
+    <Borealis />
   </div>
 </template>
