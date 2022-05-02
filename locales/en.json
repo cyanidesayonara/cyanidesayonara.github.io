@@ -2,7 +2,7 @@
   "index": {
     "greeting": "Hi ツ",
     "img_alt": "A picture of me",
-    "line1": "I'm Santtu Nykänen, a thirty-something fullstack developer from Helsinki.",
+    "line1": "I'm Santtu Nykänen, a thirty-something full-stack developer from Helsinki.",
     "line2":  "This website includes my",
     "line3": "with information about my",
     "line4": "etc. as well as links to online profiles, like",
@@ -51,11 +51,11 @@
       "title": "Work Experience",
       "gofore": {
         "title": "Gofore Oyj",
-        "line1": "Fullstack software development as a consultant on various client projects."
+        "line1": "Full-stack software development as a consultant on various client projects."
       },
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Fullstack software development as a consultant on various client projects."
+        "line1": "Full-stack software development as a consultant on various client projects."
       }
     },
     "personal_projects": {
@@ -89,7 +89,7 @@
         "img_alt": "Screenshot of NoteOwl"
       },
       "borealis": {
-        "line1": "Borealis is an LED display visualizer software for a 64x64 pixel LED matrix. It can be used to display images, animations, date/time etc. on the screen.",
+        "line1": "Borealis is an LED display visualizer software for a 64x64 pixel LED matrix screen. The IR remote controlled screen can be used to display images, animations, date/time etc.",
         "line2": "It's a fork of the Aurora project",
         "line3": "by Pixelmatix, which runs on a Teensy 3.2 microcontroller, quadrupling the original project's display size of 32x32 pixels and adding other new features.",
         "img_alt": "Screenshot of Borealis"
@@ -101,8 +101,8 @@
         "title": "Bachelor of Business Administration",
         "line1": "Bachelor's degree in Business Information Technology at Haaga-Helia University, majoring in Software Development."
       },
-      "fullstack_open": {
-        "line1": "A comprehensive online course on fullstack development by the University of Helsinki."
+      "full_stack_open": {
+        "line1": "A comprehensive online course on full-stack development by the University of Helsinki."
       },
       "elements_of_ai": {
         "line1": "An open online course on the basics of AI by the University of Helsinki.",

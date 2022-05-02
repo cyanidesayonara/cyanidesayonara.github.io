@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p class="text-sm">{{ $t('footer.updated', {
-      "date": "2022-04-30"}
+      "date": "2022-05-03"}
     ) }}</p>
     <p v-if="commitSha.length" class="text-sm">
       Commit:

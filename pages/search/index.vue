@@ -75,13 +75,6 @@ export default {
       htmlAttrs: {
         lang: 'en',
       },
-      meta: [
-        {
-          hid: this.title,
-          name: this.title,
-          content: this.title,
-        },
-      ],
     }
   },
   watchQuery: ['q'],

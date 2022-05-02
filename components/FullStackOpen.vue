@@ -9,8 +9,8 @@
         <font-awesome-icon :icon="['fab', 'github']"/>
       </a>
     </aside>
-    <h3>Fullstack Open</h3>
-    <p>{{ $t('portfolio.education.fullstack_open.line1') }}</p>
+    <h3>Full-stack Open</h3>
+    <p>{{ $t('portfolio.education.full_stack_open.line1') }}</p>
     <p>{{ $t('portfolio.completed', {
       completed: '2019'
     }) }}</p>

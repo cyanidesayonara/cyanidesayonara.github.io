@@ -12,8 +12,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
-    ],
+      { hid: 'og:title', property: 'og:title', content: 'Portfolio | Blog | Santtu Nykänen' },
+      { hid: 'description', name: 'description', content: 'The Online Portfolio and Blog of Santtu Nykänen' },
+      { hid: 'image', property: 'image', content: '/photo.png' },
+      { hid: 'og:description', property: 'og:description', content: 'The Online Portfolio and Blog of Santtu Nykänen' },
+      { hid: 'og:image', property: 'og:image', content: '/photo.png' },
+      { hid: 'og:type', property: 'og:type', content: 'Website' },
+      { hid: 'author', property: 'author', name: 'author', content: 'Santtu Nykänen' },
+      { hid: "publish_date", name: "publish_date", property: "og:publish_date", content: "2022-05-03T00:00:00+0300" }
+     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]

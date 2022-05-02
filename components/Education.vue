@@ -3,7 +3,7 @@
     <h2 :id="$t('index.links.education.id')">{{ $t('portfolio.education.title') }}</h2>
     <Tradenomi />
     <hr />
-    <FullstackOpen />
+    <FullStackOpen />
     <hr />
     <ElementsOfAI />
     <hr />

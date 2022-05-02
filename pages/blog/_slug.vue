@@ -45,13 +45,6 @@ export default {
       htmlAttrs: {
         lang: 'en',
       },
-      meta: [
-        {
-          hid: "Blog - " + this.post.title,
-          name: "Blog - " + this.post.title,
-          content: this.post.title,
-        },
-      ],
     }
   },
   mounted() {

@@ -11,17 +11,10 @@
 export default {
   head() {
     return {
-      title: "Portfolio | Blog",
+      title: "Portfolio | Blog | Santtu Nykänen",
       htmlAttrs: {
         lang: this.$i18n.locale,
       },
-      meta: [
-        {
-          hid: "Portfolio | Blog",
-          name: "Portfolio | Blog",
-          content: "Portfolio | Blog",
-        },
-      ],
     }
   },
 }

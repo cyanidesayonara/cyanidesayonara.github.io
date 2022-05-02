@@ -4,7 +4,7 @@ description: This post will serve as a brief introduction to the content and pur
 date: 2021-07-25
 author:
   name: Santtu Nykänen
-  bio: I'm a thirty-something fullstack developer from Helsinki.
+  bio: I'm a thirty-something full-stack developer from Helsinki.
   image: photo.png
 ---
 

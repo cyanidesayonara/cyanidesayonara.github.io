@@ -61,13 +61,6 @@ export default {
       htmlAttrs: {
         lang: 'en',
       },
-      meta: [
-        {
-          hid: 'Blog - latest posts',
-          name: 'Blog - latest posts',
-          content: 'latest blog posts',
-        },
-      ],
     }
   },
   methods: {

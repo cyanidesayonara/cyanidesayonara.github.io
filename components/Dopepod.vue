@@ -11,7 +11,7 @@
     <p>{{ $t('portfolio.personal_projects.dopepod.line2') }}</p>
     <p>{{ $t('portfolio.personal_projects.dopepod.line3') }}</p>
     <p>{{ $t('portfolio.completed', {
-      completed: '2019'
+      completed: '2018'
     }) }}</p>
     <p>
       {{ $t('portfolio.keywords') }}

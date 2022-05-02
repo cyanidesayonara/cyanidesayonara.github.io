@@ -4,7 +4,7 @@ description: This post will provide you with a glossary of the technical terms y
 date: 2021-08-14
 author:
   name: Santtu Nykänen
-  bio: I'm a thirty-something fullstack developer from Helsinki.
+  bio: I'm a thirty-something full-stack developer from Helsinki.
   image: photo.png
 ---
 

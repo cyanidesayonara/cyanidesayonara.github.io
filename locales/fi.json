@@ -2,7 +2,7 @@
   "index": {
     "greeting": "Moi ツ",
     "img_alt": "Kuva minusta",
-    "line1": "Olen Santtu Nykänen, kolmikymppinen fullstack-kehittäjä Helsingistä.",
+    "line1": "Olen Santtu Nykänen, kolmikymppinen full-stack -kehittäjä Helsingistä.",
     "line2": "Tämä nettisivu sisältää",
     "line3": "josta löytyy tietoa",
     "line4": "yms., sekä linkkejä nettiprofiileihin, kuten",
@@ -51,11 +51,11 @@
       "title": "Työkokemus",
       "gofore": {
         "title": "Gofore Oyj",
-        "line1": "Fullstack-softakehitystä konsulttina erinäisissä asiakasprojekteissa."
+        "line1": "Full-stack -softakehitystä konsulttina erinäisissä asiakasprojekteissa."
       },
       "solidabis": {
         "title": "Solidabis Oy",
-        "line1": "Fullstack-softakehitystä konsulttina erinäisissä asiakasprojekteissa."
+        "line1": "Full-stack -softakehitystä konsulttina erinäisissä asiakasprojekteissa."
       }
     },
     "personal_projects": {
@@ -89,7 +89,7 @@
         "img_alt": "Screenshot NoteOwlista"
       },
       "borealis": {
-        "line1": "Borealis on LED-visualisointiohjelma 64x64 pikselin LED-matriisinäytölle. Sillä voidaan esittää näytöllä kuvia, animaatioita, päivämäärä/aika jne.",
+        "line1": "Borealis on LED-visualisointiohjelma 64x64 pikselin LED-matriisinäytölle. IR-kaukosäätimellä ohjattavalla näytöllä voidaan esittää kuvia, animaatioita, päivämäärä/aika yms.",
         "line2": "Se on forkattu Pixelmatixin Aurora-projektista",
         "line3": ", joka pyörii Teensy 3.2 -mikrokontrollerissa, nelinkertaistaen alkuperäisen projektin 32x32 pikselin näytön ja lisäten muita uusia ominaisuuksia.",
         "img_alt": "Screenshot Borealiksesta"
@@ -101,8 +101,8 @@
         "title": "Tietojenkäsittelyn koulutus, tradenomi",
         "line1": "Tradenomin tutkinto Haaga-Helia AMK:ssa, pääasiallisena suuntautumisalana ohjelmistokehitys."
       },
-      "fullstack_open": {
-        "line1": "Helsingin yliopiston varsin kattava avoin fullstack-ohjelmoinnin verkkokurssi."
+      "full_stack_open": {
+        "line1": "Helsingin yliopiston varsin kattava avoin full-stack -ohjelmoinnin verkkokurssi."
       },
       "elements_of_ai": {
         "line1": "Helsingin yliopiston tarjoama avoin verkkokurssi tekoälyn perusteista.",

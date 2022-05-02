@@ -17,17 +17,10 @@
 export default {
   head() {
     return {
-      title: "Portfolio",
+      title: "Portfolio | Santtu Nykänen",
       htmlAttrs: {
         lang: this.$i18n.locale,
       },
-      meta: [
-        {
-          hid: "Portfolio",
-          name: "Portfolio",
-          content: "Portfolio",
-        },
-      ],
     }
   },
   methods: {

@@ -16,13 +16,6 @@ export default {
       htmlAttrs: {
         lang: this.$i18n.locale,
       },
-      meta: [
-        {
-          hid: "Error",
-          name: "Error",
-          content: "Error",
-        },
-      ],
     }
   },
 }
