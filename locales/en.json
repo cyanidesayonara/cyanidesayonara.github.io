@@ -40,8 +40,8 @@
       "line4": "Yet on that fateful first day, as I was staying up till the wee hours piecing together a silly",
       "line5": "with an educational, Lego-like programming language called Scratch, I'd already decided what I wanted to do next.",
       "line6": "Even though the road to becoming employable seemed long and hard, I hadn't had this much fun while studying in a long time, if ever.",
-      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on a few different projects for about three years now.",
-      "line8": "At work I've mostly been writing Python, Java and JavaScript, in no particular order. On my own time I like to experiment and learn new stuff; most recently I've been doing a lot of catching up on Android development with Kotlin and Flutter.",
+      "line7": "So, after devouring the course and teaching myself through various means for a little under two years, I finally found my first coding gig in the spring of 2019. Working as a consultant, I've since had the chance to work on several different projects for over three years now.",
+      "line8": "At work I've mostly been writing Python, Java and JavaScript, in no particular order. On my own time I like to experiment and learn new stuff; most recently I've been teaching myself .NET development with C# and mobile development with Flutter.",
       "basketball_game": {
         "text": "basketball game",
         "img_alt": "Screenshot of the basketball game"
@@ -50,11 +50,11 @@
     "work_experience": {
       "title": "Work Experience",
       "gofore": {
-        "title": "Gofore Oyj",
+        "title": "Gofore",
         "line1": "Full-stack software development as a consultant on various client projects."
       },
       "solidabis": {
-        "title": "Solidabis Oy",
+        "title": "Solidabis",
         "line1": "Full-stack software development as a consultant on various client projects."
       }
     },

@@ -12,7 +12,7 @@
     }) }}</p>
     <p>
       {{ $t('portfolio.keywords') }}
-      <em>Java, JavaScript, PostgreSQL, Docker, Node, React, Spring, AWS</em>
+      <em>Java, JavaScript, C#, .NET, PostgreSQL, Docker, Node, React, Spring, AWS</em>
     </p>
   </div>
 </template>
