@@ -2,11 +2,11 @@
   <div>
     <aside>
       <a href="https://play.google.com/store/apps/details?id=com.cyanidesayonara.dopepod" target="_blank">
-        <font-awesome-icon :icon="['fab', 'google-play']"/>
+        <FontAwesomeIcon :icon="['fab', 'google-play']"/>
       </a>
       <span class="pipe"> | </span>
       <a href="https://github.com/cyanidesayonara/dop3pod" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </aside>
     <h3>dop3pod</h3>

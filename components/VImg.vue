@@ -1,5 +1,5 @@
 <template>
-  <img @click="openModal" :src="src" :alt="alt" />
+  <img :alt="alt" :src="src" @click="openModal" />
 </template>
 
 <script>

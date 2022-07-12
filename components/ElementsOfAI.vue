@@ -2,7 +2,7 @@
   <div>
     <aside>
       <a rel="noreferrer" href="https://www.elementsofai.com/fi" target="_blank">
-        <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
+        <FontAwesomeIcon :icon="['fas', 'external-link-alt']"/>
       </a>
     </aside>
     <h3>Elements of AI</h3>

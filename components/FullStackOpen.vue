@@ -2,11 +2,11 @@
   <div>
     <aside>
       <a rel="noreferrer" href="https://fullstackopen.com/" target="_blank">
-        <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
+        <FontAwesomeIcon :icon="['fas', 'external-link-alt']"/>
       </a>
       <span class="pipe"> | </span>
       <a href="https://github.com/cyanidesayonara/fullstack-mooc-2019" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </aside>
     <h3>Full-stack Open</h3>

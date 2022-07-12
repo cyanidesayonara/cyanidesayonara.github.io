@@ -2,7 +2,7 @@
   <div>
     <aside>
       <a href="https://github.com/cyanidesayonara/monitorimittari" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </aside>
     <h3>Monitorimittari</h3>

@@ -2,7 +2,7 @@
   <div>
     <aside>
       <a href="https://github.com/cyanidesayonara/borealis" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </aside>
     <h3>Borealis</h3>

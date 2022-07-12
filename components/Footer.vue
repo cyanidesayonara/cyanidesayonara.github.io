@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p class="text-sm">{{ $t('footer.updated', {
-      "date": "2022-05-03"}
+      "date": "2022-07-22"}
     ) }}</p>
     <p v-if="commitSha.length" class="text-sm">
       Commit:
@@ -11,11 +11,11 @@
     </p>
     <div class="whitespace-nowrap">
       <a href="https://www.linkedin.com/in/santtu-nykanen/" target="_blank">
-        <font-awesome-icon :icon="['fab', 'linkedin']"/>
+        <FontAwesomeIcon :icon="['fab', 'linkedin']"/>
       </a>
       <span class="pipe"> | </span>
       <a href="https://github.com/cyanidesayonara" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </div>
   </footer>

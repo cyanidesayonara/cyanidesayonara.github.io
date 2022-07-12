@@ -6,7 +6,7 @@
         href="https://www.haaga-helia.fi/fi/tietojenkasittelyn-koulutus-tradenomi-amk"
         target="_blank"
       >
-        <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
+        <FontAwesomeIcon :icon="['fas', 'external-link-alt']"/>
       </a
       >
     </aside>

@@ -2,11 +2,11 @@
   <header>
     <aside aria-label="Links">
       <a href="https://www.linkedin.com/in/santtu-nykanen/" target="_blank">
-        <font-awesome-icon :icon="['fab', 'linkedin']"/>
+        <FontAwesomeIcon :icon="['fab', 'linkedin']"/>
       </a>
       <span class="pipe"> | </span>
       <a href="https://github.com/cyanidesayonara" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </aside>
     <nav>

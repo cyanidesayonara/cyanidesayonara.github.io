@@ -6,11 +6,11 @@
         href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x"
         target="_blank"
       >
-        <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
+        <FontAwesomeIcon :icon="['fas', 'external-link-alt']"/>
       </a>
       <span class="pipe"> | </span>
       <a href="https://github.com/cyanidesayonara/cs50-mooc" target="_blank">
-        <font-awesome-icon :icon="['fab', 'github']"/>
+        <FontAwesomeIcon :icon="['fab', 'github']"/>
       </a>
     </aside>
     <h3>CS50X</h3>

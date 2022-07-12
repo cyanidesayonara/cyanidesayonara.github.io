@@ -2,7 +2,7 @@
   <div>
     <aside>
       <a rel='noreferrer' href='https://www.linkedin.com/company/gofore/' target="_blank">
-        <font-awesome-icon :icon="['fab', 'linkedin']" />
+        <FontAwesomeIcon :icon="['fab', 'linkedin']" />
       </a>
     </aside>
     <h3>{{ $t('portfolio.work_experience.gofore.title') }}</h3>
@@ -12,7 +12,7 @@
     }) }}</p>
     <p>
       {{ $t('portfolio.keywords') }}
-      <em>Java, JavaScript, PostgreSQL, Docker, Node, React, Spring, AWS</em>
+      <em>Java, JavaScript, C#, .NET, PostgreSQL, Docker, Node, React, Spring, AWS</em>
     </p>
   </div>
 </template>

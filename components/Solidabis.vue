@@ -2,7 +2,7 @@
   <div>
     <aside>
       <a rel="noreferrer" href="https://www.linkedin.com/company/solidabis/" target="_blank">
-        <font-awesome-icon :icon="['fab', 'linkedin']"/>
+        <FontAwesomeIcon :icon="['fab', 'linkedin']"/>
       </a>
     </aside>
     <h3>{{ $t('portfolio.work_experience.solidabis.title') }}</h3>

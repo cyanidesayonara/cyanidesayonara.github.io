@@ -71,13 +71,15 @@ export default {
         .skip(5 * this.page)
         .limit(5)
         .fetch()
-      // if (!posts.length) console.log("no more posts")
+      // eslint-disable-next-line no-console
+      if (!posts.length) console.log("no more posts")
       posts.forEach((post) => {
         this.posts.push(post)
       })
       this.page++
     },
     addNewPost() {
+      // eslint-disable-next-line no-console
       console.log("add new post")
     },
     formatDate(date) {
